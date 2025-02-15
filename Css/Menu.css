@@ -14,48 +14,35 @@ body {
 }
 
 .start {
-  background-color: #b68642;
-  padding: 17px;
+  background-color: #f8d561fb;
+  padding: 10px;
   width: 100%;
 
 }
 
-header {
-  display: flex;
-  justify-content: space-between;
-  background-color: white;
-}
-
-
-.logo {
-  /* margin-left: 80px; */
-}
-
-.logo img {
-  height: 5rem;
-  /* padding: 20px 50px;
-  margin-left: 29px; */
-}
-
 ***********************************************************************
+
+
  .nav-item {
   margin: auto 100px;
 }
 .navbar-expand-lg{
   position: sticky;
   top: 0px;
+  
 }
 .navbar-nav {
   width: 100%;
   flex-flow: row;
-  justify-content: space-around;
-  background: linear-gradient(rgb(223, 188, 0) 8%, rgba(243, 136, 96, 0.19) 100%);
-  padding: 20px;
+  justify-content: center;
+  padding:0 15px;
+  border-radius: 10px;
+  margin-right: 50px;
 }
 
 .nav-link{
   font-weight: bolder !important;
-  color: #ffffff !important;
+  color: #6e6e6ee7 !important;
 
 }
 .nav-link:hover {
@@ -67,9 +54,23 @@ header {
   display: grid !important;
   grid-template-columns: 20% 80%;
   text-align: center;
-  gap: 10px;
+  gap: 5px;
   
 }
+
+.navbar-brand{
+  justify-self: end;
+}
+
+.collapse navbar-collapse{
+  padding: 0 10px;
+  margin: 0;
+}
+
+.navbar-nav {
+  padding: 10px;
+}
+
 
 @media (max-width: 994px) {
   .container-fluid {
@@ -84,8 +85,8 @@ header {
     width: 100%;
     flex-flow: row;
     justify-content: space-around;
-    background: linear-gradient(rgb(255, 255, 255) 8%, rgba(242, 236, 149, 0.19) 100%);
-    padding: 20px;
+    background: linear-gradient(rgb(255, 255, 255) 8%, rgba(242, 236, 149, 0.555) 100%);
+    padding: 10px;
   }
 
   .nav-link{

@@ -1,1 +1,7 @@
 /* สำหรับตกแต่งหน้า index */
+
+.container img{
+    width: 100%;
+    height: auto;
+
+}
