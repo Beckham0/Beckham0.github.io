@@ -26,10 +26,9 @@ body {
   margin: auto 100px;
 }
 .navbar-expand-lg{
-  position: sticky;
-  top: 0px;
-  
+  position: sticky!important; top: 0px!important;
 }
+
 .navbar-nav {
   width: 100%;
   flex-flow: row;
