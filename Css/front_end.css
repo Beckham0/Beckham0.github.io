@@ -5,17 +5,91 @@
     width: 100%;
     height: auto;
     padding: 20px;
-}
-
-.text{
-    background-image: url('Source/IMG_04811.JPG');
-    background-size: cover; /* ปรับภาพให้พอดีกับพื้นที่ */
-    background-position: center; /* จัดตำแหน่งภาพ */
-    background-repeat: no-repeat; /* ไม่ให้ภาพซ้ำ */
-}
-
-
-.text h1{
     color: #ffffff;
 }
 
+
+
+
+.container-s {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 100%;
+    padding: 0 30px;
+}
+
+.image {
+    flex: 1 1 calc(60% - 10px);
+    min-width: 500px;
+    padding: 0 10px;
+    text-align: center;
+    max-width: 1000px;
+}
+
+.image img {
+    width: 100%;
+}
+
+.content {
+    flex: 1 1 calc(30% - 10px);
+    min-width: 500px;
+    padding: 30px;
+    text-align: start;
+    background-color: #CB9B35;
+}
+
+.content h1 {
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: bold;
+    padding: 15px 20px;
+    text-align: start;
+}
+
+.content h2 {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 20px;
+}
+
+.content p {
+    color: #ffffff;
+    margin-bottom: 15px;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+
+
+.container {
+    max-width: 600px;
+    margin-top: 30px;
+}
+.container h2 {
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 17px;
+    justify-content: center;
+}
+.item {
+    background-color: #CB9B35;
+    color: white;
+    padding: 40px;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 30px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+.full-width {
+    grid-column: span 2;
+}
