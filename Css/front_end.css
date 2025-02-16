@@ -171,6 +171,7 @@
     color: #CB9B35;
     margin-bottom: 20px;
     text-align: center;
+    margin-top: 10px;
 }
 .service-boxes {
     display: flex;
@@ -204,25 +205,6 @@
 
 
 
-
-
-  .banner {
-    position: relative;
-    width: 146%;
-    max-width: 1156px;
-    background: #c49a47;
-    padding: 20px;
-    border-radius: 20px;
-    text-align: left;
-    margin-top: 280px;
-  }
-.banner img {
-    width: 100%;
-    max-width: 1135px;
-    position: absolute;
-    right: 218px;
-    bottom: 0;
-  }
 
 
 
