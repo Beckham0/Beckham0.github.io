@@ -157,6 +157,75 @@
 .grid2 div:nth-child(5) { grid-column: span 2; }
 
 
+
+
+
+
+.container3 {
+    width: 100%;
+    margin: auto;
+}
+.title-3 {
+    font-size: 67px;
+    font-weight: bold;
+    color: #CB9B35;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.service-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+  .card {
+    width: 400px!important;
+    height: auto!important;
+  }
+
+.card-title {
+    margin-bottom: var(--bs-card-title-spacer-y);
+    color: var(--bs-card-title-color);
+    font-size: 20px;
+    text-align: center;
+    background-color: #f5c254;
+    border-radius: 10px;
+    padding: 5px 0;
+    color: #5e4000;
+  }
+
+.card-text:last-child {
+    margin-bottom: 0;
+    font-size: 16px;
+    text-align: center;
+    color: #5e4000;
+  }
+
+
+
+
+
+  .banner {
+    position: relative;
+    width: 146%;
+    max-width: 1156px;
+    background: #c49a47;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: left;
+    margin-top: 280px;
+  }
+.banner img {
+    width: 100%;
+    max-width: 1135px;
+    position: absolute;
+    right: 218px;
+    bottom: 0;
+  }
+
+
+
 .chaty-channel-list{
     position: fixed;
     bottom: 75px;
@@ -167,3 +236,6 @@
   width: 54px;
   height: 54px;
   }
+
+
+
