@@ -1,0 +1,48 @@
+.Card_1{
+    height: 1000px;
+    background-image: url(../Source/IMG_0548.JPG);
+    mask-image: linear-gradient(to bottom, rgb(255, 255, 255), rgba(255, 255, 255, 0));
+    image-orientation: from-image;
+    background-size: cover;
+    background-repeat: round;
+    text-align: center;
+    margin: auto;
+    filter:  brightness(0.8);
+}
+
+.Card_2{
+    height: 70%;
+}
+
+.text_about{
+    height: 30%;
+    align-items: center;
+    position: relative;
+    display: grid;
+
+}
+.text_about h1{
+  font-weight: 600;
+  color: #d4d4d4;
+  text-shadow: 2px 0px 10px #000, 0px 15px 93px #000;
+  z-index: 5;
+    
+}
+
+.Card_1 h1{
+    font-weight: 600;
+    color: #ffffff;
+    text-shadow: 100px 100px 100px #000, 0px -3px 33px #030303;
+}
+.Card_2 h1{
+    font-weight: 600;
+    color: #ffffff;
+    text-shadow: 100px 100px 100px #000, 0px -3px 33px #030303;
+    font-weight: 600;
+}
+.Card_2 h2{
+    font-weight: 600;
+    color: #31230d;
+    text-shadow: 100px 100px 100px #000, 0px -3px 33px #030303;
+    font-weight: 600;
+}
