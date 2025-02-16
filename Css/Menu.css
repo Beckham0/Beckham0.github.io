@@ -33,6 +33,7 @@ margin-top: 10px;
 }
 .navbar-expand-lg{
   position: sticky!important; top: 0px!important;
+  box-shadow: -1px 13px 20px -19px;
 }
 
 .navbar-nav {

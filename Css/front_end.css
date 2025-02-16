@@ -1,5 +1,18 @@
 /* สำหรับตกแต่งหน้า index */
 
+.start {
+    background-color: #CB9B35;
+    padding: 8px;
+    width: 100%;
+  }
+  
+  .start h1 {
+  font-size: 15px;
+  text-align: center;
+  margin-top: 10px;
+  }
+
+
 .container-start{
     background-color: black;
     width: 100%;
