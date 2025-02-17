@@ -401,9 +401,16 @@ footer {
     width: 368px;
     height: auto;
     margin-top: 10px;
-    flex: 1 1 calc(50% - 10px);
+    flex: 1 1 calc(20% - 10px);
   }
   
+  .footer-left-2 {
+    width: 368px;
+    height: auto;
+    margin-top: 30px;
+    flex: 1 1 calc(50% - 10px);
+  }
+
   .logo {
     width: 240px;
     margin-bottom: 15px;
