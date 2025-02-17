@@ -118,3 +118,12 @@ body{
     right: 0%;
      position: absolute;
 }
+
+
+  .card_img {
+    background-image: url("./Source/IMG_0468.PNG");
+    /* คุณสามารถปรับแต่งเพิ่มเติมได้ดังนี้ */
+    background-size: cover; /* ปรับขนาดรูปภาพให้พอดีกับ div */
+    background-repeat: no-repeat; /* ไม่ให้รูปภาพซ้ำ */
+    background-position: center; /* จัดตำแหน่งรูปภาพไว้ตรงกลาง */
+  }
