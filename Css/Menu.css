@@ -6,6 +6,11 @@
   
 }
 
+.a {
+  color: rgb(255, 255, 255)!important;
+  text-decoration: none!important;
+}
+
 
 body {
   margin: 0;
