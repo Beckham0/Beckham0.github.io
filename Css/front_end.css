@@ -194,7 +194,7 @@
 }
 
   .card {
-    width: 400px!important;
+    width: 300px!important;
     height: auto!important;
   }
 
@@ -263,7 +263,14 @@
 .port {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     gap: 10px;
+}
+
+@media (max-width: 768px) {
+    .port {
+        flex-direction: column-reverse;
+    }
 }
 
 .buttons-1 {
@@ -338,6 +345,7 @@
     text-align: center;
     height: auto;
 }
+
 
 .buttons-2 img {
     width: 100%;
