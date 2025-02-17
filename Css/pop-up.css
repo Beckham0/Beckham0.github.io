@@ -8,4 +8,5 @@
 .pop-up.show1 {
     transform: scale(1); /* ขยายเมื่อแสดง */
     opacity: 1;
+    padding: 16px 0;
 }
