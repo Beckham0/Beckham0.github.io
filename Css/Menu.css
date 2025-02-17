@@ -1,7 +1,7 @@
 *{
   font-size: clamp(12px,2.5vw,22px);
   font-family: "Kanit", serif;
-  font-weight: 400;
+  font-weight: 300;
   font-style: normal;
   
 }
@@ -44,6 +44,7 @@ margin-top: 10px;
   padding:0 15px;
   border-radius: 10px;
   margin-right: 50px;
+  white-space: nowrap;
 }
 
 .nav-link{
