@@ -140,7 +140,7 @@
     padding: 0 50px;
 }
 .title2 {
-    font-size: 67px;
+    font-size: 4vmax;
     font-weight: bold;
     color: #CB9B35;
     margin-bottom: 25px;
@@ -148,19 +148,16 @@
 }
 .grid2 {
     display: grid;
-    grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto;
-    gap: 19px;
-    padding: 0 30px;
+    gap: 20px;
 }
 .grid2 div {
     background: #CB9B35;
     color: white;
-    padding: 16px 0px;
     font-weight: bold;
     text-align: center;
     border-radius: 5px;
-    font-size: 33px;
+    font-size: 3vmax;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.49);
 }
 .grid2 div:nth-child(1) { grid-column: 1; grid-row: 1; }
@@ -169,7 +166,10 @@
 .grid2 div:nth-child(4) { grid-column: 2; grid-row: 2; }
 .grid2 div:nth-child(5) { grid-column: span 2; }
 
-
+.grid2 div:hover {
+    transition: 1s ease;
+    transform: scale(1.05);
+  }
 
 
 
@@ -179,7 +179,7 @@
     margin: auto;
 }
 .title-3 {
-    font-size: 67px;
+    font-size: 4vmax;
     font-weight: bold;
     color: #CB9B35;
     margin-bottom: 20px;
@@ -196,6 +196,11 @@
   .card {
     width: 400px!important;
     height: auto!important;
+  }
+
+  .card:hover {
+    transition: 1s ease;
+    transform: scale(1.1);
   }
 
 .card-title {
