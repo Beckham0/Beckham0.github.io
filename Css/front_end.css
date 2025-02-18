@@ -29,7 +29,6 @@
     flex-wrap: wrap;
     justify-content: center;
     max-width: 100%;
-    padding: 0 30px;
 }
 
 .image {
@@ -194,7 +193,7 @@
 }
 
   .card {
-    width: 300px!important;
+    width: 400px!important;
     height: auto!important;
   }
 
@@ -206,7 +205,7 @@
 .card-title {
     margin-bottom: var(--bs-card-title-spacer-y);
     color: var(--bs-card-title-color);
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
     background-color: #f5c254;
     border-radius: 10px;
@@ -216,7 +215,7 @@
 
 .card-text:last-child {
     margin-bottom: 0;
-    font-size: 16px;
+    font-size: 20px;
     text-align: center;
     color: #5e4000;
   }
@@ -237,7 +236,7 @@
   
   
   .section_2 {
-    height: 50vw;
+    height: 40vw;
     display: flex;
     flex-direction: column-reverse;
   }
@@ -532,3 +531,36 @@ footer {
     width: 1px;
     background-color: white;
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
