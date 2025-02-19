@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Typewriter Effect with Slide</title>
+<style>
+body {
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+#typewriter {
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 50px;
+ 
+  animation: 
+    typing 2s steps(20, end) forwards, /* ปรับ duration ได้ตามต้องการ */
+    slide 5s forwards; /* ปรับ duration ให้เท่ากับ typing */
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+
+</style>
+</head>
+<body>
+
+<h1 id="typewriter">Hello, world!</h1>
+
+</body>
+</html>
