@@ -21,6 +21,11 @@
     color: #ffffff;
 }
 
+a {
+  color: rgba(var(--bs-link-color-rgb),var(--bs-link-opacity,1));
+  text-decoration: none !important;
+}
+
 
 
 
@@ -442,18 +447,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 footer {
     background-color: rgb(202, 174, 85);;
     color: white;
@@ -531,36 +524,6 @@ footer {
     width: 1px;
     background-color: white;
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
