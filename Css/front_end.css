@@ -230,84 +230,169 @@ a {
 
 
 
-  /* img_woman */
+
+/* แสดงตัวอักสอนทีละตัว */
+@keyframes zoomIn{from{opacity:0;transform:scale3d(.3,.3,.3)}50%{opacity:1}}.zoomI{animation-name:zoomIn}
+
+#typewriter.show1 {
+  overflow: hidden; /* ซ่อนข้อความที่เกินออกมา */
+  white-space: nowrap; /* ไม่ให้ข้อความขึ้นบรรทัดใหม่ */
+  animation: 
+  typing 1.5s steps(20, end) forwards, /* ปรับ duration ได้ตามต้องการ */
+  slide 5s forwards; /* ปรับ duration ให้เท่ากับ typing */
+  padding: 10px 20px;
+ 
+}
+
+@keyframes typing {
+  from { width: 10% }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #FF571999; } /* สีเส้นกระพริบ */
+}
+
+/* ************************************** */
+
+.mg_pade {
+  margin-top: 15%;
+}
+
+ /* img_woman */
 
 .Card_3_block {
-    display: flex;
-    width: 50%;
-    height: 100%;
-    right: 0;
-    position: absolute;
-    justify-content: center;
-    align-items: center;
-  }
+  display: flex;
+  width: 50%;
+  height: 100%;
+  right: 0;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.section_2 {
+  height: 40vw;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.Card_3 {
+  position: relative;
+  width: 95%;
+  height: 50%;
+  background: rgb(202, 174, 85);
+  display: flex;
+  flex-direction: column-reverse;
+  border-radius: 0px 50px 50px 0px;
+}
+
+.card_img span {
+  /* right: 1vw; */
+  position: absolute;
+  /* top: 10vw; */
+  font-size: clamp(11px, 2.5vw, 45px);
+  font-weight: bold;
+  color: #8f6f2b;
+}
+
+.card_img {
+
+  width: 50%;
+  height: 50vw;
+  position: absolute;
+  /* คุณสามารถปรับแต่งเพิ่มเติมได้ดังนี้ */
+  background-size: cover;
+  /* ปรับขนาดรูปภาพให้พอดีกับ div */
+  background-repeat: no-repeat;
+  /* ไม่ให้รูปภาพซ้ำ */
+  background-position: center;
+  /* จัดตำแหน่งรูปภาพไว้ตรงกลาง */
+}
+
+.Card_3_wrap {
+  display: flex;
+  width: 50%;
+  height: 100%;
+  right: 0;
+  position: absolute;
+  justify-content: right;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.img_card{
+  /* border-radius: 10px 0px 0px 10px; */
+  width: 100%;
+  height: 100%;
+  min-width: 400px;
+  object-fit: cover;
+  transform: translate3d(10%,0,0);
+  box-shadow: 0px 0px 0px rgb(255, 255, 255);
+}
+
+.img_card.show1{
+  transition: transform 0.9s ease-out,opacity 0.9s ease-out,filter 1s ease-out;
+  transition-delay: 200ms; 
+  transform:none !important;
+ filter: none !important;
+ box-shadow: 0px 0px 14px #00000069;
+}
+
+.call_phone {
+  background: rgb(240, 228, 185);
+  border-radius: 50px;
+  color: #ce9a20;
+  padding: 0.1rem 1rem;
+  position: absolute;
+  transform: translateX(0);
+  text-align: center;
+  display: flex;
+  transition: color 1s ease-in-out, transform 1s ease-in-out, background 1s ease-in-out;
+  width: 30vw;
+}
+
+.call_phone:hover {
+  color: #09ac00;
+ 
+  transition: color 1s ease-in-out, transform 1s ease-in-out, background 1s ease-in-out;
+}
+
+.call_phone div {
+  transition: color 1s ease-in-out, transform 1s ease-in-out, background 1s ease-in-out;
+  transform: translateX(0); /* ค่าเริ่มต้น */
+ 
+}
+
+.call_phone:hover div {
+  transform: translateX(-20%);
   
-  
-  .section_2 {
-    height: 40vw;
-    display: flex;
-    flex-direction: column-reverse;
-  }
-  
-  .Card_3 {
-    position: relative;
-    width: 95%;
-    height: 50%;
-    background: rgb(202, 174, 85);
-    display: flex;
-    flex-direction: column-reverse;
-    border-radius: 0px 50px 50px 0px;
-  }
-  
-  .card_img span {
-    right: -19vw;
-    position: absolute;
-    top: 8vw;
-    font-size: clamp(19px, 2.5vw, 45px);
-    font-weight: bold;
-    color: #8f6f2b;
-  }
-  
-  .card_img {
-  
-    width: 50%;
-    height: 50vw;
-    position: absolute;
-    /* คุณสามารถปรับแต่งเพิ่มเติมได้ดังนี้ */
-    background-size: cover;
-    /* ปรับขนาดรูปภาพให้พอดีกับ div */
-    background-repeat: no-repeat;
-    /* ไม่ให้รูปภาพซ้ำ */
-    background-position: center;
-    /* จัดตำแหน่งรูปภาพไว้ตรงกลาง */
-  }
-  
-  .Card_3_wrap {
-    display: flex;
-    width: 50%;
-    height: 100%;
-    right: 0;
-    position: absolute;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .call_phone {
-    background: rgb(240, 228, 185);
-    border-radius: 50px;
-    color: #745712;
-    padding: 0.4rem 1rem;
-    position: absolute;
-    top: 2rem;
-    text-align: center;
-  }
-  
-  .call_phone h3 {
-    font-weight: bold;
-    font-size: clamp(15px, 2.5vw, 40px);
-  }
-  
-  /* ************************************************************ */
+}
+
+
+
+
+.call_phone img {
+  transition: transform 1s ease-in-out; /* กำหนด transition */
+  transform: translateX(0); /* ค่าเริ่มต้น */
+  color: #745712;
+}
+.call_phone:hover img {
+  transform: translateX(400%); /* เปลี่ยนค่าเมื่อ hover */
+}
+
+
+.call_phone h3 {
+  font-weight: bold;
+  font-size: clamp(10px, 2.5vw, 40px);
+}
+
+
+
+/* ************************************************************ */
+
 
 
 .chaty-channel-list{

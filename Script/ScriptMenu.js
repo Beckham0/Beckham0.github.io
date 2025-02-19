@@ -2,7 +2,7 @@ function createNavbar() {
     const navbarHTML = `
     <nav class="navbar bg-body-tertiary" style="opacity: 0.9;">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"> <img src="Source/IMG_04511.png" alt="Bootstrap" width="130" height="94"></a>
+        <a class="navbar-brand" href="Index.html"> <img src="Source/IMG_04511.png" alt="Bootstrap" width="130" height="94"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
