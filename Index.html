@@ -18,54 +18,55 @@
 <link href="https://fonts.googleapis.com/css2?family=K2D&family=Kanit:wght@300;700&family=Noto+Sans+Thai:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
 </head>
-
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    document.querySelector('.a').classList.toggle('bg_buttom');
+  });
+</script>
 <body>
   <div class="start"><h1>บริษัท เอ็นอาร์พี มายแอคเคาท์ จำกัด</h1>
   </div>
   
-  <nav class="navbar navbar-expand-lg bg-body-tertiary"style="z-index: 999; display: grid;">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary"style="z-index: 999;">
     <div class="container-fluid">
       <a class="navbar-brand" href="#"> <img src="Source/IMG_04511.png" width="130" height="94"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav" >
+        <ul class="navbar-nav " >
           <li class="nav-item">
-            <a class="nav-link "  href="#">หน้าเเรก</a>
+            <a class="nav-link a"  href="#">หน้าเเรก</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">เกี่ยวกับเรา</a>
+            <a class="nav-link b" href="./Our_about.html">เกี่ยวกับเรา</a>
           </li>
-          <li class="nav-item Our_service">
-           <div class="btn-group">
-  <button type="button" class="btn btn-danger">Action</button>
-  <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
-    <span class="visually-hidden">Toggle Dropdown</span>
-  </button>
-  <ul class="dropdown-menu">
-    <li><a class="dropdown-item" href="#">Action</a></li>
-    <li><a class="dropdown-item" href="#">Another action</a></li>
-    <li><a class="dropdown-item" href="#">Something else here</a></li>
-    <li><hr class="dropdown-divider"></li>
-    <li><a class="dropdown-item" href="#">Separated link</a></li>
-  </ul>
-</div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">ผลงานเรา</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle c" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              บริการเรา
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="รับทำบัญชี ปิดงบ ยืนภาษี.html">รับทำบัญชี ปิดงบ ยืนภาษี</a></li>
+              <li><a class="dropdown-item" href="#">บริการสอบบัญชี</a></li>
+              <li><a class="dropdown-item" href="#">รับวางระบบภาษี</a></li>
+              <li><a class="dropdown-item" href="#">บริการงานทะเบียน</a></li>
+              <li><a class="dropdown-item" href="#">บริการขอใบอนุญาติสถานที่เก็บอาหาร</a></li>
+              <li><a class="dropdown-item" href="#">บริการงานจดทะเบียนบริษัท</a></li>
+              <li><a class="dropdown-item" href="#">บริการขอใบอนุญาตินำเข้า-ส่งออก</a></li>
+            </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link " href="#" >ข่าวสาร</a>
+            <a class="nav-link d" href="./our_work.html">ผลงานเรา</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link " href="#" >ติดต่อเรา</a>
+            <a class="nav-link e" href="./info.html" >ข่าวสาร</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link f" href="./contact_us.html" >ติดต่อเรา</a>
           </li>
         </ul>
       </div>
     </div>
-
-   
   </nav>
 
 
