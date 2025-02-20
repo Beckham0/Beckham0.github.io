@@ -15,6 +15,18 @@ body{
   margin-top: 10px;
   }
 
+  .Our_s{
+    height: 0px;
+    overflow: clip;
+    transition: height 0.3s ease-out;
+
+  }
+
+  .Our_s.active{
+    height: 70px;
+  width: 100%;
+  overflow: clip;
+  }
 
 .container-start{
     background-color: black;

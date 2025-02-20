@@ -23,7 +23,7 @@
   <div class="start"><h1>บริษัท เอ็นอาร์พี มายแอคเคาท์ จำกัด</h1>
   </div>
   
-  <nav class="navbar navbar-expand-lg bg-body-tertiary"style="z-index: 999;">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary"style="z-index: 999; display: grid;">
     <div class="container-fluid">
       <a class="navbar-brand" href="#"> <img src="Source/IMG_04511.png" width="130" height="94"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -314,6 +314,10 @@
 </footer>
 
 
-
+<script>
+  document.querySelector('.Our_service').addEventListener('click', () => {
+    document.querySelector('.Our_s').classList.toggle('active');
+});
+</script>
 </body>
 </html>

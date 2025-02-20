@@ -36,21 +36,21 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
 
-  document.addEventListener("DOMContentLoaded", () => {
-    const ta_center_elements = document.querySelectorAll(".test");
-    const body_bg_element = document.getElementById("body_bg"); // เลือก element ด้วย id
+  // document.addEventListener("DOMContentLoaded", () => {
+  //   const ta_center_elements = document.querySelectorAll(".test");
+  //   const body_bg_element = document.getElementById("body_bg"); // เลือก element ด้วย id
   
-    ta_center_elements.forEach(ta_center_element => {
-      const observer = new IntersectionObserver(entries => {
-        entries.forEach(entry => {
-          if (entry.isIntersecting) {
-            body_bg_element.classList.add("bg_1"); // เพิ่ม class ให้กับ body_bg
-          } else {
-            body_bg_element.classList.remove("bg_1"); // ลบ class ออก (ถ้าต้องการ)
-          }
-        });
-      });
+  //   ta_center_elements.forEach(ta_center_element => {
+  //     const observer = new IntersectionObserver(entries => {
+  //       entries.forEach(entry => {
+  //         if (entry.isIntersecting) {
+  //           body_bg_element.classList.add("bg_1"); // เพิ่ม class ให้กับ body_bg
+  //         } else {
+  //           body_bg_element.classList.remove("bg_1"); // ลบ class ออก (ถ้าต้องการ)
+  //         }
+  //       });
+  //     });
   
-      observer.observe(ta_center_element);
-    });
-  });
+  //     observer.observe(ta_center_element);
+  //   });
+  // });
