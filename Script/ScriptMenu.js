@@ -50,3 +50,52 @@ function createNavbar() {
       toggle: false // หรือ true ถ้าต้องการให้เมนูเปิดตอนโหลดหน้าเว็บ
     });
   }
+
+ 
+function createfooter() {
+  const footerHTML = `
+<footer style="border-top: 11px double #fff1bc94;" class = "FooterHTML">
+    <div class="footer-container">
+      <div class="footer-left">
+        <div class="footer-left-1"><img src="Source/IMG_04511.png" alt="NRP Logo" class="logo"></div>
+        <div class="footer-left-1"><p class="company-name">บริษัท เอ็นอาร์พี มายแอคเคาท์ จำกัด</p>
+        <p class="address">
+          115/8 หมู่บ้านพฤกษา รังสิต-วงแหวน หมู่2 ตำบลลำผักกูด อำเภอธัญบุรี ปทุมธานี<br>
+          โทร 062-896-4535 อีเมล: info@nrpmyaccount.com
+        </p></div>
+      </div>
+      <div class="footer-right">
+        <div class="s-1">
+        <div class="divider"></div>
+        <div class="services">
+          <ul>
+            <a href="#" class=""><li>สำนักงานบัญชีทรัปเพิ้ลเอิร์น</li></a>
+            <a href="#" class=""><li>เป็นที่ปรึกษาการด้านบัญชี</li></a>
+            <a href="#" class=""><li>รับทำบัญชีรายเดือน</li></a>
+            <a href="#" class=""><li>รับทำบัญชีรายปี</li></a>
+            <a href="#" class=""><li>ระบบงบการเงิน</li></a>
+          </ul>
+        </div></div>
+        <div class="s-1">
+        <div class="divider"></div>
+        <div class="services">
+          <ul>
+            <a href="#" class=""><li>สำนักงานบัญชีทรัปเพิ้ลเอิร์น</li></a>
+            <a href="#" class=""><li>เป็นที่ปรึกษาการด้านบัญชี</li></a>
+            <a href="#" class=""><li>รับทำบัญชีรายเดือน</li></a>
+            <a href="#" class=""><li>รับทำบัญชีรายปี</li></a>
+            <a href="#" class=""><li>ระบบงบการเงิน</li></a>
+          </ul>
+        </div></div>
+      </div>
+    </div>
+  </footer>
+  `;
+  document.getElementById("footerHTML1").innerHTML = footerHTML;
+
+  // Initialize Bootstrap JavaScript (สำคัญมาก)
+  const footer = document.querySelector('.FooterHTML'); // เลือก element navbar
+  new bootstrap.Collapse(footer, { // สร้าง instance ของ Bootstrap Collapse
+    toggle: false // หรือ true ถ้าต้องการให้เมนูเปิดตอนโหลดหน้าเว็บ
+  });
+}
