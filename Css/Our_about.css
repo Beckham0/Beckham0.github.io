@@ -14,7 +14,6 @@ body {
 
 .section_set {
   position: relative;
-  /* จำเป็นต้องมี position relative เพื่อให้ content อยู่เหนือพื้นหลัง */
   height: min-content;
   display: grid;
   grid-template-columns: 48% 52%;
@@ -219,9 +218,7 @@ body {
 }
 
 .card_img span {
-  /* right: 1vw; */
   position: absolute;
-  /* top: 10vw; */
   font-size: clamp(11px, 2.5vw, 55px);
   font-weight: bold;
   color: #8f6f2b;
@@ -334,8 +331,35 @@ body {
   width: 55%;
   transition: width 0.5s ease-in-out;
 }
+.card_img span {
+  left: 55% !important;
+} 
+.card_img1  {
+  width: 50%;
+  height: 50vw;
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+ } 
+
+ .card_img1 span {
+  position: absolute;
+  font-size: clamp(11px, 2.5vw, 55px);
+  font-weight: bold;
+  color: #8f6f2b;
+ }
 
 @media (max-width: 1000px) {
+
+  .card_img {
+    width: inherit !important;
+    height: 70% !important;
+    bottom: 0 !important;
+    right: 5rem !important;
+  }
+
+
 
 .text_call{
   text-align: center; align-items: center;display: flex;

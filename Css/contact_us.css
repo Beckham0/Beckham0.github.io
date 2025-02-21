@@ -1,0 +1,115 @@
+body{
+    background: linear-gradient(to right,#8761285a,#dbc06d65,#ede1b457,#d5b6615e,#a5833e) !important;
+}
+
+.card1{
+    width: auto;
+    height: 700px;
+    overflow: hidden;
+    background-image: url(../Source/IMG_0461_resize.PNG);
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    background-blend-mode: overlay;
+    margin: 20px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+.card1 h1{
+    font-weight: 600;
+    color: #ffffff;
+    text-shadow: 0px 5px 12px #030303;
+    margin: auto;
+    font-size: clamp(30px,3.5vw,60px) !important;
+}
+
+.card2{
+    margin-top: 15%;
+     width: 100%; 
+     height: 200px; 
+   
+     text-align: center;
+}
+.card2 h1{
+    font-weight: 600;
+  color: #ffffff;
+  text-shadow: 0px 5px 12px #030303;
+  font-size: 3.5rem;
+}
+.card2 h2{
+    font-weight: 600;
+    color: #745712;
+    text-shadow: 0px -2px 47px #030303;
+}
+
+.card3{
+    margin-top: 5%; 
+    width: 100%;
+      
+}
+.card3 h1{
+    font-weight: 600;
+  color: #ffffff;
+  text-shadow: 0px 5px 12px #030303;
+
+}
+.card3 h2{
+    font-weight: 400;
+    color: #745712;
+    font-size: clamp(16px, 2.5vw, 55px);
+}
+
+.card4{
+    margin-top: 15%;
+    width: 100%;
+    height: 40rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card4 h1{
+    font-weight: 600;
+  color: #ffffff;
+  text-shadow: 0px 5px 12px #030303;
+  font-size: 3rem;
+}
+
+.card5{
+    margin-top: 15%;
+  width: 100%;
+  height: 40rem;
+  text-align: center;
+}
+.card5 h1{
+    font-weight: 600;
+  color: #ffffff;
+  text-shadow: 0px 5px 12px #030303;
+
+}
+.card_img span {
+    left: 55% !important;
+  } 
+
+  
+@media (max-width: 1000px) {
+    .card_img span {
+        left: 55% !important;
+      }
+
+      .img-fluid{
+        object-fit: cover;
+      height: auto;
+      width: 100%;
+      }
+      .card4{
+        margin-top: 15%;
+        width: 100%;
+        height: auto;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+} 

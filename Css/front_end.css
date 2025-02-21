@@ -54,7 +54,7 @@ a {
 
 .image {
     flex: 1 1 calc(70% - 30px);
-    min-width: 500px;
+    /* min-width: 500px; */
     text-align: center;
 }
 
@@ -64,7 +64,7 @@ a {
 
 .content {
     flex: 1 1 calc(30% - 30px);
-    min-width: 500px;
+    /* min-width: 500px; */
     padding: 25px;
     text-align: start;
     background-color: #CB9B35;
