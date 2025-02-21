@@ -152,7 +152,8 @@ footer {
 }
 
 .logo {
-  width: 240px;
+  min-width: 130px;
+  width: 70%;
   margin-bottom: 15px;
 }
 
@@ -162,7 +163,6 @@ footer {
 }
 
 .address {
-  font-size: 14px;
   line-height: 1.6;
 }
 
@@ -304,5 +304,16 @@ footer {
       transform: translate3d(0,-80%,0) !important;
     }
     
+    footer-left-1 {
+      width: 368px;
+      height: auto;
+      margin: auto;
+    }
+
+    .footer-left {
+      flex: 1 1 calc(50% - 10px);
+      text-align: center;
+      margin: auto;
+    }
   }
 

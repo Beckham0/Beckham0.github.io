@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 document.addEventListener("DOMContentLoaded", () => {
-    const popUps = document.querySelectorAll(".pop-up_down, .img_card, .color_block_r, .color_block_l,#typewriter");
+    const popUps = document.querySelectorAll(".pop-up_down, .img_card, .color_block_r, .color_block_l,#typewriter,.move_box_text");
   
     popUps.forEach(popUp => {
       const observer = new IntersectionObserver(entries => {
