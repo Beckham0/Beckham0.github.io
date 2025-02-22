@@ -1,5 +1,5 @@
 *{
-  font-size: clamp(9px,2.5vw,22px);
+  font-size: clamp(9px,2.5vw,26px);
   font-family: "Kanit", serif;
   font-weight: 300;
   font-style: normal;
@@ -198,9 +198,17 @@ footer {
   position: relative;
   height: min-content;
   display: grid;
-  grid-template-columns: 48% 52%;
+  grid-template-columns: 1fr auto;
+  overflow:clip;
 }
-
+.info_CSS{
+  margin: auto;
+  width: 70%;
+}
+.info_CSS.show1{
+  margin: auto;
+  width: 80%;
+}
 .img_card{
   /* border-radius: 10px 0px 0px 10px; */
   width: 100%;
@@ -208,7 +216,7 @@ footer {
   min-width: 400px;
   object-fit: cover;
   transform: translate3d(10%,0,0);
-  box-shadow: 0px 0px 0px rgb(255, 255, 255);
+
 }
 
 .img_card.show1{
@@ -216,7 +224,7 @@ footer {
   transition-delay: 200ms; 
   transform:none !important;
  filter: none !important;
- box-shadow: 0px 0px 14px #00000069;
+ /* box-shadow: 0px 0px 14px #00000069; */
 }
 
 
@@ -227,7 +235,6 @@ footer {
   background: rgba(233, 233, 233, 0.76);
   color: #434343;
   backdrop-filter: blur(10px);
-  box-shadow: 0 0 100px 10px rgba(0, 0, 0, 0.5);
   transform: translate3d(-80%,0,0) !important;
 }
 
@@ -273,10 +280,15 @@ footer {
     text-align: center; align-items: center;display: flex;
   }
     .section_set {
+      /* position: relative;
+      height: min-content;
+      display: grid;
+      grid-template-columns: none; */
       position: relative;
       height: min-content;
       display: grid;
       grid-template-columns: none;
+      grid-template-rows: 300px;
     }
   
     .img_card{
@@ -287,6 +299,7 @@ footer {
       object-fit: cover;
       transform: translate3d(0,10%,0);
       box-shadow: 0px 0px 0px rgb(255, 255, 255);
+      width: auto !important;
     }
     
     .img_card.show1{
@@ -296,6 +309,7 @@ footer {
      filter: none !important;
      box-shadow: 0px 0px 14px #00000069;
      z-index: 5;
+     width: 100% !important;
     }
     
     .text_about_2 {
