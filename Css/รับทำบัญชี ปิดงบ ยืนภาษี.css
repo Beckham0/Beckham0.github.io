@@ -44,6 +44,7 @@ body {
   50% { border-color: #FF571999; } /* สีเส้นกระพริบ */
 }
 
+
 /* ************************************** */
 
 
@@ -151,6 +152,22 @@ body {
   font-size: 5rem;
 
 }
+
+
+.Card_6 h1 {
+  font-weight: 600;
+  color: #000000;
+  font-size: 4rem;
+
+}
+
+.Card_7 h1 {
+  font-weight: 600;
+  color: #b68719;
+  font-size: 4rem;
+
+}
+
 
 .block_text {
   background: rgb(202, 174, 85);
