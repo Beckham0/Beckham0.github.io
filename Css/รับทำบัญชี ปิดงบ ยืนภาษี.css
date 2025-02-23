@@ -44,6 +44,7 @@ body {
   50% { border-color: #FF571999; } /* สีเส้นกระพริบ */
 }
 
+
 /* ************************************** */
 
 
@@ -95,6 +96,8 @@ body {
   margin: auto;
 }
 
+
+
 .text_about {
   height: 50%;
   align-items: center;
@@ -131,17 +134,40 @@ body {
 .Card_2 h1 {
   font-weight: 600;
   color: #745712;
-
   font-size: 3.5rem;
 
 }
 
-.Card_2 h2 {
-  font-weight: 600;
+.Card_3 h1 {
+  font-weight: 550;
   color: #745712;
-  text-shadow: 0px -2px 47px #030303;
+  font-size: 3rem;
 
 }
+
+
+.Card_4 h1 {
+  font-weight: 600;
+  color: #000000;
+  font-size: 5rem;
+
+}
+
+
+.Card_6 h1 {
+  font-weight: 600;
+  color: #000000;
+  font-size: 4rem;
+
+}
+
+.Card_7 h1 {
+  font-weight: 600;
+  color: #b68719;
+  font-size: 4rem;
+
+}
+
 
 .block_text {
   background: rgb(202, 174, 85);
@@ -192,7 +218,7 @@ body {
 
 /* img_woman */
 
-.Card_3_block {
+.Card_5_block {
   display: flex;
   width: 50%;
   height: 100%;
@@ -209,7 +235,7 @@ body {
   flex-direction: column-reverse;
 }
 
-.Card_3 {
+.Card_5 {
   position: relative;
   width: 95%;
   height: 50%;
@@ -242,7 +268,7 @@ body {
   /* จัดตำแหน่งรูปภาพไว้ตรงกลาง */
 }
 
-.Card_3_wrap {
+.Card_5_wrap {
   display: flex;
   width: 50%;
   height: 100%;

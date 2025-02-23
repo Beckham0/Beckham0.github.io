@@ -4,7 +4,7 @@ body{
 
 .card1{
     width: auto;
-    height: 700px;
+    height: 780px;
     overflow: hidden;
     background-image: url(../Source/IMG_0461_resize.PNG);
     mask-image: linear-gradient(to bottom, rgb(255, 255, 255), rgba(255, 255, 255, 0));
