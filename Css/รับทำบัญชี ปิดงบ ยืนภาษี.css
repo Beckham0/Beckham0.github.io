@@ -97,7 +97,7 @@ a {
 .Card_8 {
   height: 100%;
   align-items: start;
-  background-color: #ce9a20;
+  background-color: rgb(202, 174, 85);
   padding: 50px 30px;
   margin: 20px;
 }
@@ -113,7 +113,7 @@ a {
   height: 100%;
   align-items: center;
   background-color: #f3bf32;
-  padding: 50px 30px;
+  padding: 20px;
   margin: 0px 50px;
 }
 
@@ -208,11 +208,12 @@ text-align: center;
   font-size: 1.7rem;
   text-align: start;
   margin-top: 20px;
+  margin-left: 50px;
 }
 
 .Card_9 h2 {
   font-weight: 600;
-  color: #bb6a00;
+  color:#997115;
   font-size: 2rem;
   text-align: start;
 }
