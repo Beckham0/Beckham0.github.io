@@ -116,6 +116,14 @@ body {
     padding: 20px;
     margin: 0px 50px;
   }
+
+
+  .Card_11 {
+    height: 100%;
+    align-items: center;
+    padding: 20px;
+    margin: 50px 0;
+  }
   
   
   
@@ -179,6 +187,12 @@ body {
     text-align: center;
   }
   
+  .Card_4 h2 {
+    font-weight: 600;
+    color: #94876d;
+    font-size: 5rem;
+    text-align: center;
+  }
   
   .Card_6 h1 {
     font-weight: 600;
@@ -232,6 +246,25 @@ body {
     text-align: center;
     margin-top: 10px;
   }
+
+
+
+  .Card_11 h1{
+    font-weight: 600;
+    color: #000000;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 5px;
+  }
+
+  .Card_11 h2{
+    font-weight: 600;
+    color: #997115;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 5px;
+  }
+  
   
   
   
