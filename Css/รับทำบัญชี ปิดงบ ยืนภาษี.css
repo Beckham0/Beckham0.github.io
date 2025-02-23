@@ -13,6 +13,11 @@ body {
 
 }
 
+a {
+  color: rgba(var(--bs-link-color-rgb),var(--bs-link-opacity,1));
+  text-decoration: none !important;
+}
+
 .section_set {
   position: relative;
   /* จำเป็นต้องมี position relative เพื่อให้ content อยู่เหนือพื้นหลัง */
@@ -101,7 +106,7 @@ body {
   height: 100%;
   align-items: center;
   padding: 50px 30px;
-  margin: 0px 114px;
+  margin: 0px 14px;
 }
 
 .Card_10 {
@@ -109,7 +114,7 @@ body {
   align-items: center;
   background-color: #f3bf32;
   padding: 50px 30px;
-  margin: 0px 550px;
+  margin: 0px 50px;
 }
 
 
@@ -149,21 +154,21 @@ body {
 .Card_1 h1 {
   font-weight: 600;
   color: #ffffff;
-
+text-align: center;
 }
 
 .Card_2 h1 {
   font-weight: 600;
   color: #745712;
   font-size: 3.5rem;
-
+  text-align: center;
 }
 
 .Card_3 h1 {
   font-weight: 550;
   color: #745712;
   font-size: 3rem;
-
+  text-align: center;
 }
 
 
@@ -171,7 +176,7 @@ body {
   font-weight: 600;
   color: #000000;
   font-size: 5rem;
-
+  text-align: center;
 }
 
 
@@ -179,20 +184,20 @@ body {
   font-weight: 600;
   color: #000000;
   font-size: 4rem;
-
+  text-align: center;
 }
 
 .Card_7 h1 {
   font-weight: 600;
   color: #997115;
   font-size: 4rem;
-
+  text-align: center;
 }
 
 .Card_8 h1 {
   font-weight: 500;
   color: #ffffff;
-  font-size: 2rem;
+  font-size: 1.7rem;
   text-align: start;
   margin-top: 20px;
 }
@@ -200,21 +205,21 @@ body {
 .Card_9 h1 {
   font-weight: 500;
   color: #000000;
-  font-size: 2rem;
+  font-size: 1.7rem;
   text-align: start;
   margin-top: 20px;
 }
 
 .Card_9 h2 {
-  font-weight: 500;
+  font-weight: 600;
   color: #bb6a00;
-  font-size: 2.5rem;
+  font-size: 2rem;
   text-align: start;
 }
 
 .Card_9 h1 span{
   font-weight: 550;
-  font-size: 2rem;
+  font-size: 1.7rem;
   text-align: start;
   margin-top: 20px;
 }
@@ -222,7 +227,7 @@ body {
 .Card_10 h1{
   font-weight: 600;
   color: #ffffff;
-  font-size: 2.5rem;
+  font-size: 2rem;
   text-align: center;
   margin-top: 10px;
 }
