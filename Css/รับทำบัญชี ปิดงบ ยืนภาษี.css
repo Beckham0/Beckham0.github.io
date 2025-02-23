@@ -44,7 +44,6 @@ body {
   50% { border-color: #FF571999; } /* สีเส้นกระพริบ */
 }
 
-
 /* ************************************** */
 
 
@@ -55,31 +54,25 @@ body {
 .ta_center {
   text-align: center;
 }
-
-.background-image-container {
-  height: 1300px;
+.card1{
+  width: auto;
+  height: 780px;
+  overflow: hidden;
   background-image: url(../Source/IMG_0477.JPG);
-  mask-image: linear-gradient(to bottom, rgb(255, 255, 255), rgba(255, 255, 255, 0));
-  image-orientation: from-image;
   background-size: cover;
-  background-repeat: round;
-}
-
-.content {
-  position: absolute;
-  /* กำหนดตำแหน่งให้ content อยู่เหนือพื้นหลัง */
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  /* หรือปรับตามความเหมาะสม */
-  display: flex;
-  flex-direction: column;
-  /* จัดให้ Card_1 อยู่ตรงกลาง */
+  background-position: top;
+  background-color: rgba(255, 255, 255, 0.5);
+  background-blend-mode: overlay;
+  text-align: center;
   align-items: center;
-  /* จัดให้ Card_1 อยู่ตรงกลาง */
-  justify-content: center;
-  /* จัดให้ Card_1 อยู่ตรงกลาง */
+  display: flex;
+}
+.card1 h1{
+  font-weight: 600;
+  color: #ffffff;
+  text-shadow: 0px 5px 12px #030303;
+  margin: auto;
+  font-size: clamp(30px,3.5vw,60px) !important;
 }
 
 .Card_1 {
@@ -94,6 +87,29 @@ body {
   align-items: center;
   display: flex;
   margin: auto;
+}
+
+.Card_8 {
+  height: 100%;
+  align-items: start;
+  background-color: #ce9a20;
+  padding: 50px 30px;
+  margin: 20px;
+}
+
+.Card_9 {
+  height: 100%;
+  align-items: center;
+  padding: 50px 30px;
+  margin: 0px 114px;
+}
+
+.Card_10 {
+  height: 100%;
+  align-items: center;
+  background-color: #f3bf32;
+  padding: 50px 30px;
+  margin: 0px 550px;
 }
 
 
@@ -115,6 +131,11 @@ body {
   backdrop-filter: blur(10px);
   box-shadow: 0 0 100px 10px rgba(0, 0, 0, 0.5);
   transform: translate3d(-80%,0,0) !important;
+  text-align: start;
+}
+
+.text_about_2 span{
+  text-align: start;
 }
 
 .text_about h1 {
@@ -163,10 +184,48 @@ body {
 
 .Card_7 h1 {
   font-weight: 600;
-  color: #b68719;
+  color: #997115;
   font-size: 4rem;
 
 }
+
+.Card_8 h1 {
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 2rem;
+  text-align: start;
+  margin-top: 20px;
+}
+
+.Card_9 h1 {
+  font-weight: 500;
+  color: #000000;
+  font-size: 2.5rem;
+  text-align: start;
+  margin-top: 20px;
+}
+
+.Card_9 h2 {
+  font-weight: 500;
+  color: #bb6a00;
+  font-size: 3rem;
+  text-align: start;
+}
+
+.Card_9 h1 span{
+  font-weight: 500;
+  font-size: 2.5rem;
+  text-align: start;
+  margin-top: 20px;
+}
+
+.Card_10 h1{
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
 
 
 .block_text {

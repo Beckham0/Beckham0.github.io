@@ -33,14 +33,23 @@ a {
   background-position: center;
   text-align: center;
   align-items: center;
+  background-color: rgba(255, 255, 255, 0.089);
+  background-blend-mode: overlay;
   display: flex;
 }
 .card1 h1{
   font-weight: 600;
   color: #ffffff;
   text-shadow: 0px 5px 12px #030303;
-  margin: auto;
   font-size: clamp(30px,3.5vw,60px) !important;
+}
+
+.text_about {
+  height: 50%;
+  align-items: center;
+  /* position: relative; ไม่จำเป็นต้องมีแล้ว */
+  display: grid;
+  left: 10px;
 }
 
 
