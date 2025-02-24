@@ -1,0 +1,571 @@
+body {
+    background: #e9e9e9 ;
+    transition: background 3s ease-in-out;
+  }
+  
+  .bg_pade{ 
+     background: linear-gradient(to right,#8761285a,#dbc06d65,#ede1b457,#d5b6615e,#a5833e) !important;
+  }
+  
+  .section_1 {
+    position: relative;
+    /* จำเป็นต้องมี position relative เพื่อให้ content อยู่เหนือพื้นหลัง */
+  
+  }
+  
+  a {
+    color: rgba(var(--bs-link-color-rgb),var(--bs-link-opacity,1));
+    text-decoration: none !important;
+  }
+  
+  .section_set {
+    position: relative;
+    /* จำเป็นต้องมี position relative เพื่อให้ content อยู่เหนือพื้นหลัง */
+    height: min-content;
+    display: grid;
+    grid-template-columns: 48% 52%;
+  }
+  
+  /* แสดงตัวอักสอนทีละตัว */
+  @keyframes zoomIn{from{opacity:0;transform:scale3d(.3,.3,.3)}50%{opacity:1}}.zoomI{animation-name:zoomIn}
+  
+  #typewriter.show1 {
+    overflow: hidden; /* ซ่อนข้อความที่เกินออกมา */
+    white-space: nowrap; /* ไม่ให้ข้อความขึ้นบรรทัดใหม่ */
+    animation: 
+    typing 1.5s steps(20, end) forwards, /* ปรับ duration ได้ตามต้องการ */
+    slide 5s forwards; /* ปรับ duration ให้เท่ากับ typing */
+    padding: 10px 20px;
+   
+  }
+  
+  @keyframes typing {
+    from { width: 10% }
+    to { width: 100% }
+  }
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #FF571999; } /* สีเส้นกระพริบ */
+  }
+  
+  /* ************************************** */
+  
+  
+  .mg_pade {
+    margin-top: 6%;
+  }
+  
+  .ta_center {
+    text-align: center;
+  }
+  .card1{
+    width: auto;
+    height: 780px;
+    overflow: hidden;
+    background-image: url(../Source/IMG_0477.JPG);
+    background-size: cover;
+    background-position: top;
+    background-color: rgba(255, 255, 255, 0.13);
+    background-blend-mode: overlay;
+    text-align: center;
+    align-items: center;
+    display: flex;
+  }
+  .card1 h1{
+    font-weight: 600;
+    color: #ffffff;
+    text-shadow: 0px 5px 12px #030303;
+    margin: auto;
+    font-size: clamp(30px,3.5vw,60px) !important;
+  }
+  
+  .Card_1 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  .Card_2 {
+    /* height: 100%; */
+    align-items: center;
+    display: flex;
+    margin: auto;
+  }
+  
+  .Card_8 {
+    height: 100%;
+    align-items: start;
+    background-color: rgb(202, 174, 85);
+    padding: 50px 30px;
+    margin: 20px;
+  }
+  
+  .Card_9 {
+    height: 100%;
+    align-items: center;
+    padding: 50px 30px;
+    margin: 0px 14px;
+  }
+  
+  .Card_10 {
+    height: 100%;
+    align-items: center;
+    background-color: #f3bf32;
+    padding: 20px;
+    margin: 0px 50px;
+  }
+
+
+  .Card_11 {
+    height: 100%;
+    align-items: center;
+    padding: 20px;
+    margin: 50px 0;
+  }
+  
+  
+  
+  .text_about {
+    height: 50%;
+    align-items: center;
+    /* position: relative; ไม่จำเป็นต้องมีแล้ว */
+    display: grid;
+    left: 10px;
+  }
+  
+  .text_about_2 {
+    background: #e7e7e7;
+    padding: 20px 10px 10px 39px;
+    border-radius: 0px 10px 10px 0px;
+    background: rgba(233, 233, 233, 0.76);
+    color: #434343;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 100px 10px rgba(0, 0, 0, 0.5);
+    transform: translate3d(-80%,0,0) !important;
+    text-align: start;
+  }
+  
+  .text_about_2 span{
+    text-align: start;
+  }
+  
+  .text_about h1 {
+    font-weight: 600;
+    color: #d4d4d4;
+    text-shadow: 0px 5px 12px #030303;
+    z-index: 5;
+  
+  }
+  
+  .Card_1 h1 {
+    font-weight: 600;
+    color: #ffffff;
+  text-align: center;
+  }
+  
+  .Card_2 h1 {
+    font-weight: 600;
+    color: #745712;
+    font-size: 3.5rem;
+    text-align: center;
+  }
+  
+  .Card_3 h1 {
+    font-weight: 550;
+    color: #745712;
+    font-size: 3rem;
+    text-align: center;
+  }
+  
+  
+  .Card_4 h1 {
+    font-weight: 600;
+    color: #000000;
+    font-size: 5rem;
+    text-align: center;
+  }
+  
+  .Card_4 h2 {
+    font-weight: 600;
+    color: #6d6d6d;
+    font-size: 5rem;
+    text-align: center;
+  }
+  
+  .Card_6 h1 {
+    font-weight: 600;
+    color: #000000;
+    font-size: 4rem;
+    text-align: center;
+  }
+  
+  .Card_7 h1 {
+    font-weight: 600;
+    color: #997115;
+    font-size: 4rem;
+    text-align: center;
+  }
+  
+  .Card_8 h1 {
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 1.7rem;
+    text-align: start;
+    margin-top: 20px;
+  }
+  
+  .Card_9 h1 {
+    font-weight: 500;
+    color: #000000;
+    font-size: 1.7rem;
+    text-align: start;
+    margin-top: 20px;
+    margin-left: 50px;
+  }
+  
+  .Card_9 h2 {
+    font-weight: 600;
+    color:#997115;
+    font-size: 2rem;
+    text-align: start;
+  }
+  
+  .Card_9 h1 span{
+    font-weight: 550;
+    font-size: 1.7rem;
+    text-align: start;
+    margin-top: 20px;
+  }
+  
+  .Card_10 h1{
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+
+
+  .Card_11 h1{
+    font-weight: 600;
+    color: #000000;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 5px;
+  }
+
+  .Card_11 h2{
+    font-weight: 600;
+    color: #997115;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 5px;
+  }
+  
+  
+  
+  
+  .block_text {
+    background: rgb(202, 174, 85);
+    color: aliceblue;
+    font-size: clamp(15px, 2.5vw, 47px);
+    font-weight: 600;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    display: flex;
+    padding: 5px;
+    align-items: center;
+  }
+  
+  .color_block_r {
+    transform: translateX(-50%);
+    display: grid;grid-template-columns: 35% 65%;
+    right: 0%;
+    width: 95%;
+    transition: transform 1s ease-in-out,opacity 1s ease-in-out;
+    opacity: 0;
+    
+  }
+  .color_block_r.show1 {
+    transform: translateX(0);
+    opacity: 1;
+    
+  }
+  
+  
+  .color_block_l {
+    transform: translateX(50%);
+    display: grid;
+    grid-template-columns: 65% 35%;
+    width: 95%;
+    justify-self: right;
+    opacity: 0;
+    transition: transform 1s ease-in-out,opacity 1s ease-in-out;
+  }
+  
+  .color_block_l.show1 {
+    transform: translateX(0);
+    opacity: 1;
+    
+  }
+  
+  .full-width {
+    grid-column: span 2;
+  }
+  
+  /* img_woman */
+  
+  .Card_5_block {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    right: 0;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .section_2 {
+    height: 40vw;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  
+  .Card_5 {
+    position: relative;
+    width: 95%;
+    height: 50%;
+    background: rgb(202, 174, 85);
+    display: flex;
+    flex-direction: column-reverse;
+    border-radius: 0px 50px 50px 0px;
+  }
+  
+  .card_img span {
+    /* right: 1vw; */
+    position: absolute;
+    /* top: 10vw; */
+    font-size: clamp(11px, 2.5vw, 45px);
+    font-weight: bold;
+    color: #8f6f2b;
+  }
+  
+  .card_img {
+  
+    width: 50%;
+    height: 50vw;
+    position: absolute;
+    /* คุณสามารถปรับแต่งเพิ่มเติมได้ดังนี้ */
+    background-size: cover;
+    /* ปรับขนาดรูปภาพให้พอดีกับ div */
+    background-repeat: no-repeat;
+    /* ไม่ให้รูปภาพซ้ำ */
+    background-position: center;
+    /* จัดตำแหน่งรูปภาพไว้ตรงกลาง */
+  }
+  
+  .Card_5_wrap {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    right: 0;
+    position: absolute;
+    justify-content: right;
+    align-items: center;
+    margin-right: 10px;
+  }
+  
+  .img_card{
+    /* border-radius: 10px 0px 0px 10px; */
+    width: 100%;
+    height: 100%;
+    min-width: 400px;
+    object-fit: cover;
+    transform: translate3d(10%,0,0);
+    box-shadow: 0px 0px 0px rgb(255, 255, 255);
+  }
+  
+  .img_card.show1{
+    transition: transform 0.9s ease-out,opacity 0.9s ease-out,filter 1s ease-out;
+    transition-delay: 200ms; 
+    transform:none !important;
+   filter: none !important;
+   box-shadow: 0px 0px 14px #00000069;
+  }
+  
+  .call_phone {
+    background: rgb(240, 228, 185);
+    border-radius: 50px;
+    color: #ce9a20;
+    padding: 0.1rem 1rem;
+    position: absolute;
+    transform: translateX(0);
+    text-align: center;
+    display: flex;
+    transition: color 1s ease-in-out, transform 1s ease-in-out, background 1s ease-in-out;
+    width: 30vw;
+  }
+  
+  .call_phone:hover {
+    color: #09ac00;
+   
+    transition: color 1s ease-in-out, transform 1s ease-in-out, background 1s ease-in-out;
+  }
+  
+  .call_phone div {
+    transition: color 1s ease-in-out, transform 1s ease-in-out, background 1s ease-in-out;
+    transform: translateX(0); /* ค่าเริ่มต้น */
+   
+  }
+  
+  .call_phone:hover div {
+    transform: translateX(-20%);
+    
+  }
+  
+  
+  
+  
+  .call_phone img {
+    transition: transform 1s ease-in-out; /* กำหนด transition */
+    transform: translateX(0); /* ค่าเริ่มต้น */
+    color: #745712;
+  }
+  .call_phone:hover img {
+    transform: translateX(400%); /* เปลี่ยนค่าเมื่อ hover */
+  }
+  
+  
+  .call_phone h3 {
+    font-weight: bold;
+    font-size: clamp(10px, 2.5vw, 40px);
+  }
+  
+  
+  
+  /* ************************************************************ */
+  
+  
+  
+  footer {
+    background-color: rgb(202, 174, 85);;
+    color: white;
+    padding: 30px 50px;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .footer-left {
+    display: flex;
+    max-width: 52%;
+    flex: 1 1 calc(50% - 10px);
+    flex-wrap: wrap;
+  }
+  
+  .footer-left-1 {
+    width: 368px;
+    height: auto;
+    margin-top: 10px;
+    flex: 1 1 calc(50% - 10px);
+  }
+  
+  .logo {
+    width: 240px;
+    margin-bottom: 15px;
+  }
+  
+  .company-name {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .address {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+  .footer-right {
+    display: flex;
+    gap: 20px;
+    justify-content: start;
+    flex: 1 1 calc(50% - 10px);
+    flex-wrap: wrap;
+  }
+  
+  .s-1 {
+    display: flex;
+    flex: 1 1 calc(50% - 10px);
+    flex-wrap: wrap;
+  }
+  
+  .services ul {
+    list-style-type: disc;
+  }
+  
+  .services ul a {
+    color: rgb(255, 255, 255)!important;
+    text-decoration: none!important;
+  }
+  
+  .divider {
+    width: 1px;
+    background-color: white;
+  }
+  
+  .img_line{
+    min-width: 170px;
+    transition: width 0.5s ease-in-out;
+  }
+  .img_line:hover{
+    min-width: 220px;
+    width: 55%;
+    transition: width 0.5s ease-in-out;
+  }
+  
+  @media (max-width: 1000px) {
+  
+  .text_call{
+    text-align: center; align-items: center;display: flex;
+  }
+    .section_set {
+      position: relative;
+      height: min-content;
+      display: grid;
+      grid-template-columns: none;
+    }
+  
+    .img_card{
+      /* border-radius: 10px 0px 0px 10px; */
+      width: 100%;
+      height: 100%;
+      min-width: unset;
+      object-fit: cover;
+      transform: translate3d(0,10%,0);
+      box-shadow: 0px 0px 0px rgb(255, 255, 255);
+    }
+    
+    .img_card.show1{
+      transition: transform 0.9s ease-out,opacity 0.9s ease-out,filter 1s ease-out;
+      transition-delay: 200ms; 
+      transform:none !important;
+     filter: none !important;
+     box-shadow: 0px 0px 14px #00000069;
+     z-index: 5;
+    }
+    
+    .text_about_2 {
+    
+      border-radius: 0px 0 0 0px !important;
+      transform: translate3d(0,-80%,0) !important;
+    }
+    
+  }
