@@ -1,27 +1,63 @@
 body{
-    background: linear-gradient(to right,#8761285a,#dbc06d65,#ede1b457,#d5b6615e,#a5833e) !important;
+    /* background: linear-gradient(to right,#8761285a,#dbc06d65,#ede1b457,#d5b6615e,#a5833e) !important; */
+    background: #e9e9e9 !important;
 }
 
+
 .card1{
-    width: auto;
-    height: 700px;
-    overflow: hidden;
-    background-image: url(../Source/IMG_0475.JPG);
+  width: auto;
+  height: 700px;
+  overflow: hidden;
+  background-image: url(../Source/IMG_0475.JPG);
+  mask-image: linear-gradient(to bottom, rgb(255, 255, 255), rgba(255, 255, 255, 0));
     background-size: cover;
-    background-position: center;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-position: top;
+    /* background-color: rgba(255, 255, 255, 0.5); */
     background-blend-mode: overlay;
-    margin: 20px;
     text-align: center;
     align-items: center;
     display: flex;
 }
+
+.content {
+position: absolute;
+/* กำหนดตำแหน่งให้ content อยู่เหนือพื้นหลัง */
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+/* หรือปรับตามความเหมาะสม */
+display: flex;
+flex-direction: column;
+/* จัดให้ Card_1 อยู่ตรงกลาง */
+align-items: center;
+/* จัดให้ Card_1 อยู่ตรงกลาง */
+justify-content: center;
+/* จัดให้ Card_1 อยู่ตรงกลาง */
+}
+.content h1{
+  font-weight: 600;
+  color: #ffffff;
+  text-shadow: 0px 5px 12px #030303;
+  margin: auto;
+  font-size: clamp(40px,3.5vw,60px) !important;
+  top: 20%;
+  position: relative;
+}
+.Card_1 {
+text-align: center;
+display: flex;
+flex-direction: column;
+height: 100%;
+}
+
+
 .card1 h1{
     font-weight: 600;
     color: #ffffff;
     text-shadow: 0px 5px 12px #030303;
     margin: auto;
-    font-size: clamp(30px,3.5vw,60px) !important;
+    font-size: clamp(40px,3.5vw,60px) !important;
 }
 
 .font_hrad{
