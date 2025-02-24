@@ -1,37 +1,47 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Typewriter Effect with Slide</title>
+<title>ภาพเลื่อนตามความสูง</title>
 <style>
-body {
-  background-color: #f0f0f0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-}
-
-#typewriter {
+.image-container {
+  width: 100%;
+  height: 500px;
   overflow: hidden;
-  white-space: nowrap;
-  font-size: 50px;
- 
-  animation: 
-    typing 2s steps(20, end) forwards, /* ปรับ duration ได้ตามต้องการ */
-    slide 5s forwards; /* ปรับ duration ให้เท่ากับ typing */
+  position: relative;
 }
 
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
+.image-container img {
+  width: 100%;
+  position: absolute;
+  top: 0;
 }
-
-
 </style>
 </head>
 <body>
 
-<h1 id="typewriter">Hello, world!</h1>
+<div class="image-container">
+  <img id="scrollImage" src="./Source/Group 10.png" alt="ภาพเลื่อนขึ้นลง">
+</div>
+
+<script>
+  const img = document.getElementById('scrollImage');
+  img.onload = function() {
+    const imageHeight = img.offsetHeight;
+    const containerHeight = img.parentElement.offsetHeight;
+    const scrollDistance = imageHeight - containerHeight;
+
+    if (scrollDistance > 0) {
+      img.style.animation = `scrollUpDown 20s infinite alternate linear`;
+
+      const styleSheet = document.createElement("style");
+      styleSheet.innerHTML = `@keyframes scrollUpDown {
+        0% { top: 0; }
+        100% { top: -${scrollDistance}px; }
+      }`;
+      document.head.appendChild(styleSheet);
+    }
+  };
+</script>
 
 </body>
 </html>
