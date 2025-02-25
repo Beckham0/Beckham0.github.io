@@ -542,13 +542,13 @@ a {
 .service-card h3 {
     margin: 5px 0;
     font-weight: 550;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     margin-top: 20px;
 }
 
 .service-card p {
   font-weight: 300;
-    font-size: 0.8rem;
+    font-size: 20px;
     margin-top: 20px;
     line-height: 1.5;
     text-align: start;
