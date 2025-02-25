@@ -10,7 +10,7 @@ function createNavbar() {
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav " >
           <li class="nav-item">
-            <a id="lang_Home" class="nav-link a"  href="./Index.html">หน้าเเรก</a>
+            <a id="lang_Home" class="nav-link a"  href="./index.html">หน้าเเรก</a>
           </li>
           <li class="nav-item">
             <a id="lang_About" class="nav-link b" href="./Our_about.html">เกี่ยวกับเรา</a>
