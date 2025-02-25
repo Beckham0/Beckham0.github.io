@@ -43,6 +43,7 @@ var th ={
     lang_Work:"Our Portfolio",
     lang_News:"News ",
     lang_Contant:"Contact Us",
+    lang_call_1:"Call Now!",
 
     lang_item1:"Accounting & Tax Solutions ",
     lang_item2:"Auditing Services",
@@ -124,6 +125,19 @@ var th ={
     lang_AU15:'NRP My Account Free consultation available.',
     lang_AU16:"Call Now!",
     
+    lang_OW1:"Our Clients",
+    lang_OW2:"Construction Business Clients",
+    lang_OW3:'"Charoenkit Construction Co., Ltd."',
+    lang_OW4:"Thank you for using our services.",
+    lang_OW5:"Charoenkit Construction has been in business for 20 years and wants to start a full-fledged business system, starting with business registration and proper accounting to lay a solid financial system foundation.",
+    lang_OW6:"Services Provided",
+    lang_OW7:"Business Registration",
+    lang_OW8:"Monthly Accounting Services",
+    lang_OW9:"Auditing Services",
+    lang_OW10:"Financial Statement Closing Services",
+   
+
+    
   }
     function renderlang(){
       if(!localStorage.lang){
@@ -138,9 +152,13 @@ var th ={
         $("#lang_Contant").text(settext("lang_Contant"));
         $("#footer_2_1").text(settext("footer_2_1"));
         $("#typewriter").text(settext("typewriter"));
+        $("#lang_call_1").text(settext("lang_call_1"));
         // footer
         for (let index = 1; index < 13; index++) {
           $("#footer_"+[index]).text(settext("footer_"+[index]));
+         }
+        for (let index = 1; index < 13; index++) {
+          $("#lang_OW"+[index]).text(settext("lang_OW"+[index]));
          }
         
         // $("#footer_1").text(settext("footer_1"));
