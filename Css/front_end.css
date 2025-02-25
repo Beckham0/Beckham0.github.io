@@ -155,13 +155,13 @@ a {
 .service-boxes {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 25px;
     flex-wrap: wrap;
 }
 
   .card {
-    width: 400px!important;
-    height: auto!important;
+    width: 380px!important;
+    height: 650px!important;
   }
 
   .card:hover {
@@ -172,7 +172,7 @@ a {
 .card-title {
     margin-bottom: var(--bs-card-title-spacer-y);
     color: var(--bs-card-title-color);
-    font-size: 40px;
+    font-size: 35px;
     text-align: center;
     background-color: #f5c254;
     border-radius: 10px;
@@ -183,7 +183,7 @@ a {
 
 .card-text:last-child {
     margin-bottom: 0;
-    font-size: 21px;
+    font-size: 20px;
     text-align: center;
     color: #5e4000;
   }
@@ -475,7 +475,7 @@ a {
     width: 100%;
     text-align: center;
     height: auto;
-    padding: 0 10px;
+    padding: 0 20px;
 }
 
 
@@ -504,7 +504,7 @@ a {
 
 .service-card {
     margin: 10px;
-    max-width: 400px;
+    max-width: 380px;
     overflow: hidden;
     text-align: center;
     height:fit-content;
