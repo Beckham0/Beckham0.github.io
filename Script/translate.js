@@ -97,12 +97,33 @@ var th ={
     typewriter:"Free consultation available.",
     lang_29:"Call Now!",
     lang_30:" News/Activities",
-    lang_31:" Our Portfolio",
-    lang_32:" NRP My Account Free consultation available.",
-    lang_33:"",
-    lang_34:"",
-    lang_35:"",
-    lang_36:"",
+    lang_31:"Our Portfolio ",
+    lang_32:"Contact Us ",
+    lang_33:"NRP My Account Free consultation available.",
+    lang_34:"Business Registration",
+    lang_35:"Triple Earn Accounting Office provides accounting and tax services, including monthly accounting, annual accounting, and financial statement closing.",
+    lang_36:"FDA Registration Process",
+    lang_37:"Triple Earn Accounting Office provides accounting and tax services, including monthly accounting, annual accounting, and financial statement closing.",
+    lang_38:"NRP My Account Co., Ltd.",
+    lang_39:"Bringing your business to the online world with a quality business website, showcasing your business strengths, meeting all usage needs, attracting target audience interest, and increasing the best sales opportunities.",
+    // pade about
+    lang_AU1:"About Us",
+    lang_AU2:"Get to Know Us",
+    lang_AU3:"NRP My Account Co., Ltd.",
+    lang_AU4:"NRP My Account Co., Ltd.",
+    lang_AU5:"A professional accounting firm with over 10 years of experience in providing comprehensive accounting services to businesses of all sizes, from SMEs and startups to multinational corporations in a variety of industries, including manufacturing, trading, services, and even construction. We have a team of accounting experts ready to provide advice and comprehensive accounting care to ensure that your financial information is accurate, precise, and in compliance with international standards.",
+    lang_AU6:"Vision",
+    lang_AU7:'"To be the leader in comprehensive and most modern accounting services in the country."',
+    lang_AU8:'"To be the leader in comprehensive and most modern accounting services in the country."',
+    lang_AU9:"Mission",
+    lang_AU10:'"To be the leader in comprehensive and most modern accounting services in the country."',
+    lang_AU11:'"To be the leader in comprehensive and most modern accounting services in the country."',
+    lang_AU12:'"To be the leader in comprehensive and most modern accounting services in the country."',
+    lang_AU13:'"To be the leader in comprehensive and most modern accounting services in the country."',
+    lang_AU14:'"To be the leader in comprehensive and most modern accounting services in the country."',
+    lang_AU15:'NRP My Account Free consultation available.',
+    lang_AU16:"Call Now!",
+    
   }
     function renderlang(){
       if(!localStorage.lang){
@@ -116,19 +137,24 @@ var th ={
         $("#lang_News").text(settext("lang_News"));
         $("#lang_Contant").text(settext("lang_Contant"));
         $("#footer_2_1").text(settext("footer_2_1"));
+        $("#typewriter").text(settext("typewriter"));
         // footer
-        $("#footer_1").text(settext("footer_1"));
-        $("#footer_2").text(settext("footer_2"));
-        $("#footer_3").text(settext("footer_3"));
-        $("#footer_4").text(settext("footer_4"));
-        $("#footer_5").text(settext("footer_5"));
-        $("#footer_6").text(settext("footer_6"));
-        $("#footer_7").text(settext("footer_7"));
-        $("#footer_8").text(settext("footer_8"));
-        $("#footer_9").text(settext("footer_9"));
-        $("#footer_10").text(settext("footer_10"));
-        $("#footer_11").text(settext("footer_11"));
-        $("#footer_12").text(settext("footer_12"));
+        for (let index = 1; index < 13; index++) {
+          $("#footer_"+[index]).text(settext("footer_"+[index]));
+         }
+        
+        // $("#footer_1").text(settext("footer_1"));
+        // $("#footer_2").text(settext("footer_2"));
+        // $("#footer_3").text(settext("footer_3"));
+        // $("#footer_4").text(settext("footer_4"));
+        // $("#footer_5").text(settext("footer_5"));
+        // $("#footer_6").text(settext("footer_6"));
+        // $("#footer_7").text(settext("footer_7"));
+        // $("#footer_8").text(settext("footer_8"));
+        // $("#footer_9").text(settext("footer_9"));
+        // $("#footer_10").text(settext("footer_10"));
+        // $("#footer_11").text(settext("footer_11"));
+        // $("#footer_12").text(settext("footer_12"));
 
         
         // pade index
@@ -139,39 +165,15 @@ var th ={
         $("#lang_item5").text(settext("lang_item5"));
         $("#lang_item6").text(settext("lang_item6"));
         $("#lang_item7").text(settext("lang_item7"));
-        $("#lang_1").text(settext("lang_1"));
-        $("#lang_2").text(settext("lang_2"));
-        $("#lang_3").text(settext("lang_3"));
-        $("#lang_4").text(settext("lang_4"));
-        $("#lang_5").text(settext("lang_5"));
-        $("#lang_6").text(settext("lang_6"));
-        $("#lang_7").text(settext("lang_7"));
-        $("#lang_8").text(settext("lang_8"));
-        $("#lang_9").text(settext("lang_9"));
-        $("#lang_10").text(settext("lang_10"));
-        $("#lang_11").text(settext("lang_11"));
-        $("#lang_12").text(settext("lang_12"));
-        $("#lang_13").text(settext("lang_13"));
-        $("#lang_14").text(settext("lang_14"));
-        $("#lang_15").text(settext("lang_15"));
-        $("#lang_16").text(settext("lang_16"));
-        $("#lang_17").text(settext("lang_17"));
-        $("#lang_18").text(settext("lang_18"));
-        $("#lang_19").text(settext("lang_19"));
-        $("#lang_20").text(settext("lang_20"));
-        $("#lang_21").text(settext("lang_21"));
-        $("#lang_22").text(settext("lang_22"));
-        $("#lang_23").text(settext("lang_23"));
-        $("#lang_24").text(settext("lang_24"));
-        $("#lang_25").text(settext("lang_25"));
-        $("#lang_26").text(settext("lang_26"));
-        $("#lang_27").text(settext("lang_27"));
-        $("#lang_28").text(settext("lang_28"));
-        $("#lang_29").text(settext("lang_29"));
-        $("#typewriter").text(settext("typewriter"));
-        $("#lang_30").text(settext("lang_30"));
-        $("#lang_31").text(settext("lang_31"));
-        $("#lang_32").text(settext("lang_32"));
+       
+       for (let index = 1; index < 40; index++) {
+        $("#lang_"+[index]).text(settext("lang_"+[index]));
+       }
+       for (let index = 1; index < 40; index++) {
+        $("#lang_AU"+[index]).text(settext("lang_AU"+[index]));
+       }
+      
+       
       }
     }
   

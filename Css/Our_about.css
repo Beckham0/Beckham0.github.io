@@ -330,7 +330,7 @@ body {
 
  .card_img1 span {
   position: absolute;
-  font-size: clamp(11px, 2.5vw, 55px);
+  font-size: clamp(20px, 2.5vw, 55px);
   font-weight: bold;
   color: #8f6f2b;
  }
