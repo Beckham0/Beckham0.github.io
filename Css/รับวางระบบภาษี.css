@@ -4,7 +4,7 @@ body {
   }
   
   .bg_pade{ 
-     background: linear-gradient(to right,#8761285a,#dbc06d65,#ede1b457,#d5b6615e,#a5833e) !important;
+    background: #e9e9e9  !important;
   }
   
   .section_1 {
@@ -214,7 +214,6 @@ body {
     font-size: 1.7rem;
     text-align: start;
     margin-top: 20px;
-    margin-left: 50px;
   }
   
   .Card_9 h2 {
