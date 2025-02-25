@@ -24,7 +24,7 @@ a {
 .card1{
   width: auto;
   height: 40vw;
-  min-height: 500px;
+  min-height: 400px;
   overflow: hidden;
   background-image: url(../Source/IMG_0481112.jpg);
   background-size: cover;
