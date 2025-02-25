@@ -1,11 +1,14 @@
 *{
-  font-size: clamp(9px,2.5vw,26px);
+  font-size: clamp(9px,2.5vw,25px);
   font-family: "Kanit", serif;
   font-weight: 300;
   font-style: normal; 
 }
 
-
+#typewriter.show1{
+  font-size: clamp(20px, 2.5vw, 55px); 
+  bottom: 0;
+}
 
 .bg_buttom{
   color: #caa100 !important;
@@ -100,6 +103,10 @@ margin: 10px auto;
     gap: 10px;
     
   }
+  #lang_AU15 {
+    width: 60vw !important;
+    top: 0px;
+  }
 
   .navbar-nav {
     width: 100%;
@@ -111,7 +118,7 @@ margin: 10px auto;
   .nav-link{
     font-weight: bolder !important;
     color: #8b8b8b !important;
-    font-size: 19px!important;
+    font-size: 2rem!important;
     text-align: right;
     padding: 0 10px!important;
   
@@ -224,15 +231,17 @@ footer {
   min-width: 400px;
   object-fit: cover;
   transform: translate3d(10%,0,0);
-
+  z-index: 0;
+  
 }
 
 .img_card.show1{
-  transition: transform 0.9s ease-out,opacity 0.9s ease-out,filter 1s ease-out;
+  transition: transform 0.9s ease-out,opacity 0.9s ease-out,filter 1s ease-out,z-index 1.5s ease-out;
   transition-delay: 200ms; 
   transform:none !important;
  filter: none !important;
  /* box-shadow: 0px 0px 14px #00000069; */
+ z-index: 5;
 }
 
 

@@ -18,7 +18,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   
 </head>
-<body class="bg_pade">
+<body >
 <script>
     document.addEventListener("DOMContentLoaded", () => {
     document.querySelector('.b').classList.toggle('bg_buttom');
@@ -26,8 +26,8 @@
 </script>
   
 <div class="start">
-  <h1  style="display: inline;margin: auto;">บริษัท เอ็นอาร์พี มายแอคเคาท์ จำกัด  </h1> 
-  <div style=" margin-right: 1rem;right: 0;position: absolute;"> <a id="lang_language" onclick="togglelang()" href="">Language : EN</a></div>
+  <h1 id="lang_1" style="display: inline;margin: auto;">บริษัท เอ็นอาร์พี มายแอคเคาท์ จำกัด  </h1> 
+  <div  style=" margin-right: 1rem;right: 0;position: absolute;"> <a id="lang_language" onclick="togglelang()" href="">Language : EN</a></div>
 </div>
     <div id="navbar-container" class="navbar-expand-lg"  style="z-index: 999 !important;"></div>
 
@@ -38,12 +38,12 @@
           <div class="content">  
             <div class="Card_1">
               <div class="text_about">
-                <h1  style="font-size: clamp(40px,3.5vw,69px) !important;" class="pop-up_down">เกี่ยวกับเรา</h1>
+                <h1 id="lang_AU1"  style="font-size: clamp(40px,3.5vw,69px) !important;" class="pop-up_down">เกี่ยวกับเรา</h1>
              </div>
             <div class="Card_2">
               <div>
-                <h1 class="pop-up_down">"ทำความรู้จัก"</h1><br>
-                <h2 class="pop-up_down">บริษัท เอ็นอาร์พี มายแอคเคาท์ จำกัด</h2>
+                <h1 id="lang_AU2" class="pop-up_down">"ทำความรู้จัก"</h1><br>
+                <h2 id="lang_AU3" class="pop-up_down">บริษัท เอ็นอาร์พี มายแอคเคาท์ จำกัด</h2>
               </div>
             </div>
           </div>
@@ -53,14 +53,18 @@
       <div class="container" style="top: 20px; position: relative;">
       <section class="section_set mg_pade" >
         <img src="./Source/IMG_0539.JPG" class="img_card" style="z-index: 5; filter: blur(2px);">
-        <div class="text_about_2 img_card" ><span style="color:#8c6436; ">&nbsp; บริษัท เอ็นอาร์พี มายแอคเคาท์ จํากัด</span> บริษัทบัญชีมืออาชีพที่มี
+        <div  class="text_about_2 img_card" ><span id="lang_AU4"  style="color:#8c6436; ">&nbsp; บริษัท เอ็นอาร์พี มายแอคเคาท์ จํากัด</span> 
+        <div id="lang_AU5" style="display: inline;">
+          บริษัทบัญชีมืออาชีพที่มี
           ประสบการณ์มากกว่า 10 ปีในการให้บริการบัญชีครบวงจรแก่ธุรกิจ
           ทุกขนาด ตังแต่ SME,Startup ไปจนถึงบริษัทข้ามชาติในหลากหลาย
           อุตสาหกรรม ไม่ว่าจะเป็นอุตสาหกรรมการผลิต, การค้า, บริการ, หรือ
           แม้แต่ธุรกิจรับเหมาก่อสร้าง เรามีทีมงานผู้เชียวชาญด้านบัญชีทีพร้อม
           ให้คําปรึกษาและดูแลบัญชีของคุณอย่างครอบคลุม เพื่อให้คุณมันใจได้
           ว่าข้อมูลทางการเงินของคุณมีความถูกต้อง แม่นยํา และเป็นไปตาม
-          มาตรฐานสากล"</div>
+          มาตรฐานสากล"
+        </div>
+        </div>
       </section>
 
       <section  style="justify-content: center;display: grid;grid-template-columns: 50% 50%; height: 200px;">
@@ -71,7 +75,7 @@
           <div class="call_phone">
             <img src="https://media.tenor.com/zVNzIFTdYIEAAAAj/call.gif" alt="" width="20%" height="20%" style="margin: auto 5px;">
             <div style="margin: auto;">
-              <h3 >โทรสายด่วน!</h3>
+              <h3 id="lang_7" >โทรสายด่วน!</h3>
               <h3 >062-896-4535</h3>
             </div>         
           </div>
@@ -82,18 +86,18 @@
     
     </div>
     <section  class="ta_center mg_pade test"  style="display: grid;grid-gap: 2rem;overflow: clip;">
-      <span style="font-size: 50vmax;font-size: 6vmax;font-weight: bold; color: #8c6426;">วิสัยทัศน์</span>
+      <span id="lang_AU6" style="font-size: 50vmax;font-size: 6vmax;font-weight: bold; color: #8c6426;">วิสัยทัศน์</span>
       
       <br><br><br>
       <div class=" color_block_r " >
         <div style="height: 160px;background-position: center;background-size: cover;background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(202, 174, 85)), url(./Source/IMG_0474.JPG);"></div>
-        <div class="block_text">“เป็นผู้นําด้านบริการบัญชีที่ครบวงจรและทันสมัยที่สุดในประเทศ"</div>
+        <div id="lang_AU7" class="block_text">“เป็นผู้นําด้านบริการบัญชีที่ครบวงจรและทันสมัยที่สุดในประเทศ"</div>
       </div>
       <br>
       
       
       <div class=" color_block_l" >
-        <div class="block_text">“เป็นผู้นําด้านบริการบัญชีที่ครบวงจรและทันสมัยที่สุดในประเทศ"</div>
+        <div  id="lang_AU8" class="block_text">“เป็นผู้นําด้านบริการบัญชีที่ครบวงจรและทันสมัยที่สุดในประเทศ"</div>
         <div style="height: 160px;background-position: center;background-size: cover;background-image: linear-gradient(to right, rgb(202, 174, 85), rgba(255, 255, 255, 0)), url(./Source/IMG_0475.JPG);"></div>
       </div>
      
@@ -103,24 +107,24 @@
 
     <br><br><br>
     <section class="ta_center mg_pade" style="display: grid;grid-gap: 2rem; overflow: clip;">
-      <span style="font-size: 50vmax;font-size: 6vmax;font-weight: bold; color: #8c6426;">พันธกิจ</span>
+      <span  id="lang_AU9" style="font-size: 50vmax;font-size: 6vmax;font-weight: bold; color: #8c6426;">พันธกิจ</span>
       
         <div class=" color_block_r " >
           <div style="height: 160px;background-position: center;background-size: cover;background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(202, 174, 85)), url(./Source/IMG_0474.JPG);"></div>
-          <div class="block_text">“เป็นผู้นําด้านบริการบัญชีที่ครบวงจรและทันสมัยที่สุดในประเทศ"</div>
+          <div  id="lang_AU10" class="block_text">“เป็นผู้นําด้านบริการบัญชีที่ครบวงจรและทันสมัยที่สุดในประเทศ"</div>
         </div>
       
         
         
         <div class=" color_block_l" >
-          <div class="block_text">“เป็นผู้นําด้านบริการบัญชีที่ครบวงจรและทันสมัยที่สุดในประเทศ"</div>
+          <div  id="lang_AU11" class="block_text">“เป็นผู้นําด้านบริการบัญชีที่ครบวงจรและทันสมัยที่สุดในประเทศ"</div>
           <div style="height: 160px;background-position: center;background-size: cover;background-image: linear-gradient(to right, rgb(202, 174, 85), rgba(255, 255, 255, 0)), url(./Source/IMG_0475.JPG);"></div>
         </div>
       
 
         <div class=" color_block_r " >
           <div style="height: 160px;background-position: center;background-size: cover;background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(202, 174, 85)), url(./Source/IMG_0474.JPG);"></div>
-          <div class="block_text">“เป็นผู้นําด้านบริการบัญชีที่ครบวงจรและทันสมัยที่สุดในประเทศ"</div>
+          <div  id="lang_AU12" class="block_text">“เป็นผู้นําด้านบริการบัญชีที่ครบวงจรและทันสมัยที่สุดในประเทศ"</div>
         </div>
         
     </section>
@@ -130,8 +134,8 @@
   <section class="mg_pade section_2">
     <div class="Card_3">
       <div class="card_img1" style="background-image: url('./Source/IMG_0468.PNG');">
-        <div style="width: 100%;height: 20%; overflow: clip;z-index: 5;position: relative;left: 49%;top: 15%;">
-          <span id="typewriter" class="show1">ยินดีให้คำปรึกษาฟรี ค่ะ</span>
+        <div style="width: 130%; height: 20%; overflow: clip;z-index: 5;position: relative;left: 49%;top: 7%;">
+          <span  id="typewriter" class="show1">ยินดีให้คำปรึกษาฟรี ค่ะ</span>
         </div>
       </div>
           
@@ -139,7 +143,7 @@
             <div class="call_phone" style="top: 1rem;">
               <img src="https://media.tenor.com/zVNzIFTdYIEAAAAj/call.gif" alt="" width="20%" height="20%" style="margin: auto 5px;">
               <div style="margin: auto;">
-                <h3>โทรสายด่วน!</h3>
+                <h3  id="lang_AU16">โทรสายด่วน!</h3>
                 <h3>062-896-4535</h3>
               </div>         
             </div>
@@ -153,14 +157,14 @@
 
     <br><br><br>
     <section style="text-align: center;">
-      <div style="font-size: 5rem; font-weight: 600; color: #8c6426;;">Gallery</div>
+      <div   style="font-size: 5rem; font-weight: 600; color: #8c6426;;">Gallery</div>
       <div>
         <img src="./Source/IMG_0536.JPG" alt="" srcset="" width="80%">
     </section>
 
 <br><br><br>
     <section style="position: relative;width: 100%;height:40rem; background: linear-gradient(#faebd700,#caae55c4);">
-      <div  class="card_img" style="background-image: url('./Source/IMG_0469.PNG');width: 70%; height: 100%;" ><span style="font-size: 4vw;width: 40vw;left: 37vw;top: 0;" class="pop-up_down ">เอ็นอาร์พี มายแอคเคาท์
+      <div  class="card_img" style="background-image: url('./Source/IMG_0469.PNG');width: 70%; height: 100%; right: 8rem !important;" ><span  id="lang_AU15" style=" font-size: clamp(20px, 2.5vw, 55px);width: 40vw;left: 37vw;top: 0; " class="pop-up_down ">เอ็นอาร์พี มายแอคเคาท์
         ยินดีให้คําปรึกษาฟรีค่ะ</span></div>
     </section>
 
