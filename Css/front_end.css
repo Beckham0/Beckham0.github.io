@@ -493,6 +493,70 @@ a {
 
 
 
+*************************************************** 
+
+.services {
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+}
+
+.service-card {
+    margin: 10px;
+    max-width: 400px;
+    overflow: hidden;
+    text-align: center;
+    height:fit-content;
+}
+
+.service-card1 {
+    text-align: center;
+    border-radius: 0 0 8px 8px;
+    max-width: 600px;
+    overflow: hidden;
+    text-align: center;
+    z-index: 5 !important;
+    display: block;
+    position: relative;
+    margin-bottom: 1.5rem;
+    padding: 0 30px;
+}
+
+
+.service-card img {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    font-size: 14px;
+    position: relative;
+}
+
+.service-card1 h3 {
+    color: #956600;
+}
+
+.service-card1 p {
+    color: #956600;
+}
+
+.service-card h3 {
+    margin: 5px 0;
+    font-weight: 550;
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+.service-card p {
+  font-weight: 300;
+    font-size: 20px;
+    margin-top: 20px;
+    line-height: 1.5;
+    text-align: start;
+}
+
+
+
+
 
 
 
