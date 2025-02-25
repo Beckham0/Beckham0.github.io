@@ -2,9 +2,11 @@
   font-size: clamp(9px,2.5vw,26px);
   font-family: "Kanit", serif;
   font-weight: 300;
-  font-style: normal;
-  
+  font-style: normal; 
 }
+
+
+
 .bg_buttom{
   color: #caa100 !important;
 }
@@ -21,9 +23,11 @@ body {
 
 .start {
   background-color: #CB9B35;
-  padding: 1px;
+  padding: 14px;
   width: 100%;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .start h1 {
@@ -111,6 +115,9 @@ margin: 10px auto;
     text-align: right;
     padding: 0 10px!important;
   
+  }
+  .dropdown-item{
+    white-space: normal !important;
   }
 }
 
