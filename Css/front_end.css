@@ -166,10 +166,11 @@ a {
     height: 650px!important;
   }
 
+  /*
   .card:hover {
     transition: 1s ease;
     transform: scale(1.1);
-  }
+  }*/
 
 .card-title {
     margin-bottom: var(--bs-card-title-spacer-y);
@@ -236,7 +237,7 @@ a {
 
 
 .section_2 {
-  height: 40vw;
+  height: 55vw;
   display: flex;
   flex-direction: column-reverse;
 }
@@ -262,8 +263,8 @@ a {
 
 .card_img {
 
-  width: 50%;
-  height: 50vw;
+  width: 63%;
+  height: 67vw;
   position: absolute;
   /* คุณสามารถปรับแต่งเพิ่มเติมได้ดังนี้ */
   background-size: cover;
@@ -280,9 +281,9 @@ a {
   height: 100%;
   right: 0;
   position: absolute;
-  justify-content: right;
+  justify-content: center;
   align-items: center;
-  margin-right: 10px;
+  margin-right: 11px;
 }
 
 .img_card{
