@@ -24,7 +24,7 @@ a {
 .card1{
   width: auto;
   height: 40vw;
-  min-height: 500px;
+  min-height: 400px;
   overflow: hidden;
   background-image: url(../Source/IMG_0481112.jpg);
   background-size: cover;
@@ -79,21 +79,21 @@ a {
 
 .text_about_02 h1{
   color: #ffffff;
-  font-size: 4vmax;
+  font-size: 6vmax;
   font-weight: bold;
   text-align: center;
 }
 
 .text_about_02 h2{
   color: #ffffff;
-  font-size: 3vmax;
+  font-size: 4vmax;
   font-weight: bold;
   text-align: center;
 }
 
 .text_about_02 h3{
   color: #ffffff;
-  font-size: 1.5vmax;
+  font-size: 2vmax;
   text-align: start;
 }
 
@@ -160,7 +160,7 @@ a {
 }
 
   .card {
-    width: 500px!important;
+    width: 400px!important;
     height: auto!important;
   }
 
@@ -475,6 +475,7 @@ a {
     width: 100%;
     text-align: center;
     height: auto;
+    padding: 0 10px;
 }
 
 
@@ -542,7 +543,7 @@ a {
 .service-card h3 {
     margin: 5px 0;
     font-weight: 550;
-    font-size: 1.5rem;
+    font-size: 35px;
     margin-top: 20px;
 }
 
