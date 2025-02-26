@@ -61,15 +61,16 @@ body {
   }
   .card1{
     width: auto;
-    height: 780px;
+    height: 40vw;
+    min-height: 400px;
     overflow: hidden;
-    background-image: url(../Source/IMG_0477.JPG);
+    background-image: url(../Source/IMG_04777.JPG);
     background-size: cover;
-    background-position: top;
-    background-color: rgba(255, 255, 255, 0.13);
-    background-blend-mode: overlay;
+    background-position: center;
     text-align: center;
     align-items: center;
+    background-color: rgba(255, 255, 255, 0.42);
+    background-blend-mode: overlay;
     display: flex;
   }
   .card1 h1{
@@ -77,7 +78,7 @@ body {
     color: #ffffff;
     text-shadow: 0px 5px 12px #030303;
     margin: auto;
-    font-size: clamp(30px,3.5vw,60px) !important;
+    font-size: clamp(40px,3.5vw,60px) !important;
   }
   
   .Card_1 {
@@ -149,6 +150,13 @@ body {
   
   .text_about_2 span{
     text-align: start;
+    font-size: 1.7rem;
+  }
+
+  .text_about_2 h1 {
+    font-weight: 100;
+    color: #000000;
+    font-size: 1.7rem;
   }
   
   .text_about h1 {
