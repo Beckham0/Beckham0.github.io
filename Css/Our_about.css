@@ -47,7 +47,7 @@ body {
 
 
 .mg_pade {
-  margin-top: 11%;
+  margin-top: 25%;
 }
 
 .ta_center {
@@ -326,11 +326,14 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  min-width: 26rem;
+  min-height: 27rem;
+
  } 
 
  .card_img1 span {
   position: absolute;
-  font-size: clamp(20px, 2.5vw, 55px);
+  font-size: clamp(20px, 3.5vw, 55px);
   font-weight: bold;
   color: #8f6f2b;
  }
@@ -343,7 +346,9 @@ body {
     bottom: 0 !important;
     right: 5rem !important;
   }
-
+  .mg_pade{
+    margin-top: 40%;
+  }
 
 
 .text_call{

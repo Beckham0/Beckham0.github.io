@@ -1,8 +1,8 @@
 function createNavbar() {
     const navbarHTML = `
     
-  <nav class="navbar navbar-expand-lg bg-body-tertiary"style="z-index: 999;">
-    <div class="container-fluid">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary"style="z-index: 999; opacity:0.8;">
+    <div class="container-fluid scope_manu" style="--bs-gutter-x: 0.5rem;">
       <a class="navbar-brand" href="./index.html"> <img src="Source/IMG_04511.png" width="130" height="94"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -56,9 +56,9 @@ function createNavbar() {
 function createfooter() {
   const footerHTML = `
 <footer style="border-top: 11px double #fff1bc94;" class = "FooterHTML">
-    <div class="footer-container">
+    <div class="footer-container footer_background">
       <div class="footer-left">
-        <div class="footer-left-1"><img src="Source/IMG_04511.png" alt="NRP Logo" class="logo"></div>
+        <div class="footer-left-1 footer_img"><img src="Source/IMG_04511.png" alt="NRP Logo" class="logo"></div>
         <div class="footer-left-1"><p  id="footer_1" class="company-name">บริษัท เอ็นอาร์พี มายแอคเคาท์ จำกัด</p>
         <p id="footer_2" class="address">
           115/8 หมู่บ้านพฤกษา รังสิต-วงแหวน หมู่2 ตำบลลำผักกูด อำเภอธัญบุรี ปทุมธานี</p>
