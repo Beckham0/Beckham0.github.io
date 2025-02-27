@@ -65,7 +65,7 @@ body{
 .text_list div{
     font-weight: 400;
     color: #8f6f2b;
-    font-size: clamp(15px,2.5vw,35px) !important;
+    font-size: clamp(20px,2.5vw,35px) !important;
     margin-top: 1rem;
 }
 

@@ -56,7 +56,9 @@ body {
 }
 
 .background-image-container {
-  height: 30rem;
+  width: auto;
+  height: 40vw;
+  min-height: 400px;
   background-image: url(../Source/IMG_0548.JPG);
   mask-image: linear-gradient(to bottom, rgb(255, 255, 255), rgba(255, 255, 255, 0));
   image-orientation: from-image;
