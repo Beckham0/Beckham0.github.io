@@ -208,12 +208,12 @@ body {
     text-align: center;
   }
   
-  .Card_8 h1 {
-    font-weight: 500;
-    color: #ffffff;
-    font-size: 1.7rem;
-    text-align: start;
-    margin-top: 20px;
+  .Card_8 {
+    height: 100%;
+    align-items: start;
+    background-color: rgb(202, 174, 85);
+    padding: 10px 30px;
+    margin: 20px;
   }
   
   .Card_9 h1 {
