@@ -1,7 +1,7 @@
 function createNavbar() {
     const navbarHTML = `
     
-  <nav class="navbar navbar-expand-lg bg-body-tertiary"style="z-index: 999; opacity:0.8;">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary"style="z-index: 999; ">
     <div class="container-fluid scope_manu" style="--bs-gutter-x: 0.5rem;">
       <a class="navbar-brand" href="./index.html"> <img src="Source/IMG_04511.png" width="130" height="94"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,7 +19,7 @@ function createNavbar() {
             <a id="lang_Services" class="nav-link dropdown-toggle c" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               บริการเรา
             </a>
-            <ul class="dropdown-menu">
+            <ul class="dropdown-menu" style="background: #caa31d; opacity:0.9;">
               <li><a id="lang_item1" class="dropdown-item" href="รับทำบัญชี ปิดงบ ยืนภาษี.html">รับทำบัญชี ปิดงบ ยืนภาษี</a></li>
               <li><a id="lang_item2" class="dropdown-item" href="บริการสอบบัญชี.html">บริการสอบบัญชี</a></li>
               <li><a id="lang_item3" class="dropdown-item" href="รับวางระบบภาษี.html">รับวางระบบภาษี</a></li>
@@ -71,7 +71,7 @@ function createfooter() {
         <div class="s-1">
         <div class="divider"></div>
         <div class="services">
-          <ul>
+          <ul >
             <a href="#" class=""><li id="footer_3">สำนักงานบัญชีทรัปเพิ้ลเอิร์น</li></a>
             <a href="#" class=""><li id="footer_4">เป็นที่ปรึกษาการด้านบัญชี</li></a>
             <a href="#" class=""><li id="footer_5">รับทำบัญชีรายเดือน</li></a>
