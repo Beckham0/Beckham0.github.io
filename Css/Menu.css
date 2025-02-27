@@ -399,13 +399,32 @@ footer {
   position: relative;
   width: 95%;
   height: 50%;
-  background: rgb(202, 174, 85);
   display: flex;
   flex-direction: column-reverse;
   border-radius: 0px 50px 50px 0px;
   min-height: 130px;
 }
 .Card_3_wrap {
+  display: flex;
+  width: 50%;
+  height: 100%;
+  right: 0;
+  position: absolute;
+  justify-content: right;
+  align-items: center;
+}
+
+.Card_33 {
+  position: relative;
+  width: 95%;
+  height: 50%;
+  background: rgb(202, 174, 85);
+  display: flex;
+  flex-direction: column-reverse;
+  border-radius: 0px 50px 50px 0px;
+  min-height: 130px;
+}
+.Card_33_wrap {
   display: flex;
   width: 50%;
   height: 100%;
