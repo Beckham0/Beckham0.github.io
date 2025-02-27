@@ -372,14 +372,14 @@ footer {
 }
 
 .card_img1  {
-  width: 50%;
+  width: 65%;
   height: 50vw;
   position: absolute;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   min-width: 26rem;
-  min-height: 27rem;
+  min-height: 33rem;
 
  } 
 
@@ -554,7 +554,7 @@ footer {
     height: 20rem;
   }
   .section_2{
-    height: 20rem;
+    height: 27rem;
   }
 }
 
