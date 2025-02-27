@@ -562,4 +562,13 @@ footer {
   .call_phone{
     top: 1.5rem !important;
   }
+  .call_phone:hover div {
+    transform: translateX(-70%) !important;  
+  }
+  .img_line1:hover{
+    min-width: 50px !important;
+   
+  }
+  
+  
 }
