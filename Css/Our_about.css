@@ -1,5 +1,5 @@
 body {
-  background: #e9e9e9 ;
+  background: #e9e9e9 !important;
 }
 
 .bg_pade{ 
@@ -55,7 +55,7 @@ body {
 }
 
 .background-image-container {
-  height: 1300px;
+  height: 30rem;
   background-image: url(../Source/IMG_0548.JPG);
   mask-image: linear-gradient(to bottom, rgb(255, 255, 255), rgba(255, 255, 255, 0));
   image-orientation: from-image;
@@ -198,24 +198,12 @@ body {
   position: absolute;
   justify-content: center;
   align-items: center;
+ 
 }
 
 
-.section_2 {
-  height: 40vw;
-  display: flex;
-  flex-direction: column-reverse;
-}
 
-.Card_3 {
-  position: relative;
-  width: 95%;
-  height: 50%;
-  background: rgb(202, 174, 85);
-  display: flex;
-  flex-direction: column-reverse;
-  border-radius: 0px 50px 50px 0px;
-}
+
 
 .card_img span {
   position: absolute;
@@ -238,105 +226,18 @@ body {
   /* จัดตำแหน่งรูปภาพไว้ตรงกลาง */
 }
 
-.Card_3_wrap {
-  display: flex;
-  width: 50%;
-  height: 100%;
-  right: 0;
-  position: absolute;
-  justify-content: right;
-  align-items: center;
-  margin-right: 10px;
-}
 
 
 
 
-.call_phone {
-  background: rgb(240, 228, 185);
-  border-radius: 50px;
-  color: #ce9a20;
-  padding: 0.1rem 1rem;
-  position: absolute;
-  transform: translateX(0);
-  text-align: center;
-  display: flex;
-  transition: color 1s ease-in-out, transform 1s ease-in-out, background 1s ease-in-out;
-  width: 30vw;
-}
-
-.call_phone:hover {
-  color: #09ac00;
- 
-  transition: color 1s ease-in-out, transform 1s ease-in-out, background 1s ease-in-out;
-}
-
-.call_phone div {
-  transition: color 1s ease-in-out, transform 1s ease-in-out, background 1s ease-in-out;
-  transform: translateX(0); /* ค่าเริ่มต้น */
- 
-}
-
-.call_phone:hover div {
-  transform: translateX(-20%);
-  
-}
 
 
 
 
-.call_phone img {
-  transition: transform 1s ease-in-out; /* กำหนด transition */
-  transform: translateX(0); /* ค่าเริ่มต้น */
-  color: #745712;
-}
-.call_phone:hover img {
-  transform: translateX(400%); /* เปลี่ยนค่าเมื่อ hover */
-}
-
-
-.call_phone h3 {
-  font-weight: bold;
-  font-size: clamp(10px, 2.5vw, 40px);
-}
-
-
-
-/* ************************************************************ */
-
-
-
-
-.img_line{
-  min-width: 170px;
-  transition: width 0.5s ease-in-out;
-}
-.img_line:hover{
-  min-width: 220px;
-  width: 55%;
-  transition: width 0.5s ease-in-out;
-}
 .card_img span {
   left: 55% !important;
 } 
-.card_img1  {
-  width: 50%;
-  height: 50vw;
-  position: absolute;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  min-width: 26rem;
-  min-height: 27rem;
 
- } 
-
- .card_img1 span {
-  position: absolute;
-  font-size: clamp(20px, 3.5vw, 55px);
-  font-weight: bold;
-  color: #8f6f2b;
- }
 
 @media (max-width: 1000px) {
 

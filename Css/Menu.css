@@ -138,6 +138,98 @@ margin: 10px auto;
 }
 
 
+/* call Now! */
+
+.call_phone {
+  background: rgb(240, 228, 185);
+  border-radius: 50px;
+  color: #ce9a20;
+  padding: 0.1rem 1rem;
+  position: absolute;
+  transform: translateX(0);
+  text-align: center;
+  display: flex;
+  transition: color 1s ease-in-out, transform 1s ease-in-out, background 1s ease-in-out;
+  width: 60%;
+  min-width: 12rem;
+  height: auto;
+}
+
+
+.call_phone:hover {
+  color: #09ac00;
+  transition: color 1s ease-in-out, transform 1s ease-in-out, background 1s ease-in-out;
+}
+
+.call_phone div {
+  transition: color 1s ease-in-out, transform 1s ease-in-out, background 1s ease-in-out;
+  transform: translateX(0); 
+}
+
+.call_phone:hover div {
+  transform: translateX(-20%);  
+}
+
+.call_phone img {
+  transition: transform 1s ease-in-out; 
+  transform: translateX(0); 
+  color: #745712;
+}
+
+.call_phone:hover img {
+  transform: translateX(20vw); 
+}
+
+.call_phone1:hover img {
+  transform: translateX(12rem) !important; 
+}
+
+.call_phone h3 {
+  font-weight: bold;
+  font-size: clamp(10px, 2.5vw, 40px);
+}
+
+.call_now{
+  background: rgb(240, 228, 185);
+  border-radius: 50px;
+  color: #ce9a20;
+  padding: 0.1rem 1rem;
+  position: absolute;
+  width: 55%;
+  min-width: 12rem;
+  height: 60%;
+
+}
+
+/* ************************************************************ */
+
+.calling_and_line{
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 50% 50%;
+   height: 8rem;
+}
+
+.img_line{
+  min-width: 170px;
+  transition: width 0.5s ease-in-out;
+}
+.img_line:hover{
+  min-width: 220px;
+  width: 55%;
+  transition: width 0.5s ease-in-out;
+}
+.img_line1{
+  width: 80%;
+  transition: width 0.5s ease-in-out;
+}
+.img_line1:hover{
+  min-width: 220px;
+  width: 70%;
+  transition: width 0.5s ease-in-out;
+}
+
+
 /* footer */
 
 footer {
@@ -279,9 +371,63 @@ footer {
   /* จัดตำแหน่งรูปภาพไว้ตรงกลาง */
 }
 
+.card_img1  {
+  width: 50%;
+  height: 50vw;
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-width: 26rem;
+  min-height: 27rem;
+
+ } 
+
+ .card_img1 span {
+  position: absolute;
+  font-size: clamp(20px, 3.5vw, 55px);
+  font-weight: bold;
+  color: #8f6f2b;
+ }
+ .section_2 {
+  height: 40vw;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.Card_3 {
+  position: relative;
+  width: 95%;
+  height: 50%;
+  background: rgb(202, 174, 85);
+  display: flex;
+  flex-direction: column-reverse;
+  border-radius: 0px 50px 50px 0px;
+  min-height: 130px;
+}
+.Card_3_wrap {
+  display: flex;
+  width: 50%;
+  height: 100%;
+  right: 0;
+  position: absolute;
+  justify-content: right;
+  align-items: center;
+}
+
 @media (max-width: 1000px) {
+
+  .calling_and_line{
+    justify-content: center;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 1fr 1fr;
+     height: 20rem;
+  }
+
 .call_phone img{
   min-width: 20px;
+  width: 25% !important;
 }
   .card_img span {
     position: absolute;
@@ -342,6 +488,7 @@ footer {
       transform: translate3d(0,-80%,0) !important;
     }
     
+
     footer-left-1 {
       width: 368px;
       height: auto;
@@ -387,5 +534,32 @@ footer {
   }
   .footer-right{
     flex-direction: column;
+  }
+
+  .call_now{
+    background: rgb(240, 228, 185);
+    border-radius: 50px;
+    color: #ce9a20;
+    padding: 0.1rem 1rem;
+    position: absolute;
+    width: 55%;
+    min-width: 12rem;
+    height: 60%;
+    align-items: center;
+    display: flex;
+  
+  }
+
+  .calling_and_line{
+    height: 20rem;
+  }
+  .section_2{
+    height: 20rem;
+  }
+}
+
+@media (max-width: 525px) {
+  .call_phone{
+    top: 1.5rem !important;
   }
 }
