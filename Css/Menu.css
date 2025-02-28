@@ -191,7 +191,7 @@ margin: 10px auto;
 }
 
 .call_phone:hover img {
-  transform: translateX(20vw); 
+  transform: translateX(15vw); 
   opacity: 0;
 }
 

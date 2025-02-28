@@ -437,12 +437,12 @@ body {
 
 
 .call_phone img {
-  transition: transform 1s ease-in-out; /* กำหนด transition */
-  transform: translateX(0); /* ค่าเริ่มต้น */
+  transition: transform 1s ease-in-out; 
+  transform: translateX(0); 
   color: #745712;
 }
 .call_phone:hover img {
-  transform: translateX(400%); /* เปลี่ยนค่าเมื่อ hover */
+  transform: translateX(400%);
 }
 
 
@@ -457,33 +457,7 @@ body {
   
   
   
-  footer {
-    background-color: rgb(202, 174, 85);;
-    color: white;
-    padding: 30px 50px;
-  }
-  
-  .footer-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    gap: 20px;
-  }
-  
-  .footer-left {
-    display: flex;
-    max-width: 52%;
-    flex: 1 1 calc(50% - 10px);
-    flex-wrap: wrap;
-  }
-  
-  .footer-left-1 {
-    width: 368px;
-    height: auto;
-    margin-top: 10px;
-    flex: 1 1 calc(50% - 10px);
-  }
+ 
   
   .logo {
     width: 240px;
