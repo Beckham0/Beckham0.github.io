@@ -8,7 +8,9 @@ body{
 }
 
 .background-image-container {
-  height: 30rem;
+  width: auto;
+  height: 40vw;
+  min-height: 400px;
   background-image: url(../Source/IMG_0475.JPG);
   mask-image: linear-gradient(to bottom, rgb(255, 255, 255), rgba(255, 255, 255, 0));
   image-orientation: from-image;
@@ -96,6 +98,7 @@ body{
     color: #ab801b;
     /* text-shadow: 0px -2px 47px #030303; */
     text-align: center;
+    font-size: clamp(31px,4.5vw,700px);
 }
 
 .card_img span {
@@ -104,7 +107,7 @@ body{
 
   .card3 li {
     color: #ab801b;
-    font-size: clamp(12px,2.5vw,30px);
+    font-size: clamp(20px,3.5vw,40px);
     font-weight: bolder;
   }
 
