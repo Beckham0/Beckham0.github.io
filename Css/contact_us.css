@@ -18,6 +18,22 @@ body{
     display: flex;
 }
 
+.section_1{
+  position: relative;
+}
+
+.background-image-container {
+  width: auto;
+  height: 40vw;
+  min-height: 400px;
+  background-image: url(../Source/IMG_0475.JPG);
+  mask-image: linear-gradient(to bottom, rgb(255, 255, 255), rgba(255, 255, 255, 0));
+  image-orientation: from-image;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
 .content {
   position: absolute;
   /* กำหนดตำแหน่งให้ content อยู่เหนือพื้นหลัง */
@@ -34,6 +50,15 @@ body{
   justify-content: center;
   /* จัดให้ Card_1 อยู่ตรงกลาง */
 }
+
+.Card_1 {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+
 .content h1{
     font-weight: 600;
     color: #ffffff;
@@ -42,12 +67,6 @@ body{
     font-size: clamp(40px,3.5vw,60px) !important;
     top: 20%;
     position: relative;
-}
-.Card_1 {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  height: 100%;
 }
 
 .card2{

@@ -19,14 +19,14 @@ function createNavbar() {
             <a id="lang_Services" class="nav-link dropdown-toggle c" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               บริการเรา
             </a>
-            <ul class="dropdown-menu" style="background: #caa31d; opacity:0.9;">
-              <li><a id="lang_item1" class="dropdown-item" href="รับทำบัญชี ปิดงบ ยืนภาษี.html">รับทำบัญชี ปิดงบ ยืนภาษี</a></li>
-              <li><a id="lang_item2" class="dropdown-item" href="บริการสอบบัญชี.html">บริการสอบบัญชี</a></li>
-              <li><a id="lang_item3" class="dropdown-item" href="รับวางระบบภาษี.html">รับวางระบบภาษี</a></li>
-              <li><a id="lang_item4" class="dropdown-item" href="บริการงานทะเบียน.html">บริการงานทะเบียน</a></li>
-              <li><a id="lang_item5" class="dropdown-item" href="บริการขอใบอนุญาติสถานที่เก็บอาหาร.html">บริการขอใบอนุญาติสถานที่เก็บอาหาร</a></li>
-              <li><a id="lang_item6" class="dropdown-item" href="บริการงานจดทะเบียนบริษัท.html">บริการงานจดทะเบียนบริษัท</a></li>
-              <li><a id="lang_item7" class="dropdown-item" href="บริการขอใบอนุญาตินำเข้า-ส่งออก.html">บริการขอใบอนุญาตินำเข้า-ส่งออก</a></li>
+            <ul class="dropdown-menu" style="background: #f8f9fa; opacity:0.9;">
+              <li><a id="lang_item1" class="dropdown-item c1" href="รับทำบัญชี ปิดงบ ยืนภาษี.html">รับทำบัญชี ปิดงบ ยืนภาษี</a></li>
+              <li><a id="lang_item2" class="dropdown-item c2" href="บริการสอบบัญชี.html">บริการสอบบัญชี</a></li>
+              <li><a id="lang_item3" class="dropdown-item c3" href="รับวางระบบภาษี.html">รับวางระบบภาษี</a></li>
+              <li><a id="lang_item4" class="dropdown-item c4" href="บริการงานทะเบียน.html">บริการงานทะเบียน</a></li>
+              <li><a id="lang_item5" class="dropdown-item c5" href="บริการขอใบอนุญาติสถานที่เก็บอาหาร.html">บริการขอใบอนุญาติสถานที่เก็บอาหาร</a></li>
+              <li><a id="lang_item6" class="dropdown-item c6" href="บริการงานจดทะเบียนบริษัท.html">บริการงานจดทะเบียนบริษัท</a></li>
+              <li><a id="lang_item7" class="dropdown-item c7" href="บริการขอใบอนุญาตินำเข้า-ส่งออก.html">บริการขอใบอนุญาตินำเข้า-ส่งออก</a></li>
             </ul>
           </li>
           <li class="nav-item">

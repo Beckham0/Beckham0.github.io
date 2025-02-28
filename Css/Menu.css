@@ -117,6 +117,8 @@ margin: 10px auto;
     gap: 10px;
     
   }
+
+  
   #lang_AU15 {
     width: 60vw !important;
     top: 0px;
@@ -131,14 +133,14 @@ margin: 10px auto;
 
   .nav-link{
     font-weight: bolder !important;
-    color: #8b8b8b !important;
+    color: #8b8b8b ;
     text-align: right;
     padding: 0 10px!important;
   
   }
   .dropdown-item{
     font-weight: bolder !important;
-    color: #000000bf !important;
+    color: #000000bf ;
     font-size: 1.5rem!important;
 
   
@@ -391,8 +393,8 @@ footer {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  min-width: 27rem;
-  min-height: 32rem;
+  min-width: 24rem;
+  min-height: 29rem;
  } 
 
  .card_img1 span {
@@ -602,7 +604,18 @@ footer {
    
   }
   .warp_word{
-    left: 40% !important;
+    left: 44% !important;
   }
   
 }
+@media (max-width: 1000px) {
+  .card_img2 {
+    width: inherit !important;
+    height: 75% !important;
+    bottom: 0 !important;
+    right: 5rem !important;
+  }
+}
+.card_img2 span {
+  left: 55% !important;
+} 

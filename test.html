@@ -1,47 +1,102 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>ภาพเลื่อนตามความสูง</title>
-<style>
-.image-container {
-  width: 100%;
-  height: 500px;
-  overflow: hidden;
-  position: relative;
-}
+  <title>Navbar ติด/ไม่ติด</title>
+  <style>
+    #navbar {
+      position: fixed; /* เปลี่ยนเป็น fixed เพื่อให้ top ทำงานได้ */
+      top: -60px; /* เริ่มต้นให้ navbar ซ่อนอยู่ด้านบน */
+      width: 100%;
+      background-color: #333;
+      color: white;
+      padding: 10px 0;
+      transition: top 1s ease-in-out; /* เปลี่ยนเป็น transition: top */
+    }
 
-.image-container img {
-  width: 100%;
-  position: absolute;
-  top: 0;
-}
-</style>
+    #navbar ul {
+      list-style: none;
+      text-align: center;
+    }
+
+    #navbar li {
+      display: inline;
+      margin: 0 20px;
+    }
+
+    #navbar a {
+      color: white;
+      text-decoration: none;
+    }
+
+    #navbar.fixed {
+      top: 0; /* เปลี่ยน top เป็น 0 เพื่อให้ navbar แสดงผล */
+    }
+
+    #content {
+      margin-top: 60px;
+    }
+  </style>
 </head>
 <body>
+  <nav id="navbar">
+    <ul>
+      <li><a href="#">หน้าแรก</a></li>
+      <li><a href="#">เกี่ยวกับเรา</a></li>
+      <li><a href="#">บริการ</a></li>
+      <li><a href="#">ติดต่อ</a></li>
+    </ul>
+  </nav>
 
-<div class="image-container">
-  <img id="scrollImage" src="./Source/Group 10.png" alt="ภาพเลื่อนขึ้นลง">
-</div>
+  <div id="content">
+    <p>เลื่อนหน้าจอขึ้นลงเพื่อดูการทำงานของ navbar</p>
+    <p>เลื่อนหน้าจอขึ้นลงเพื่อดูการทำงานของ navbar</p>
+    <p>เลื่อนหน้าจอขึ้นลงเพื่อดูการทำงานของ navbar</p>
+    <p>เลื่อนหน้าจอขึ้นลงเพื่อดูการทำงานของ navbar</p>
+    <p>เลื่อนหน้าจอขึ้นลงเพื่อดูการทำงานของ navbar</p>
+    <p>เลื่อนหน้าจอขึ้นลงเพื่อดูการทำงานของ navbar</p>
+    <p>เลื่อนหน้าจอขึ้นลงเพื่อดูการทำงานของ navbar</p>
+    <p>เลื่อนหน้าจอขึ้นลงเพื่อดูการทำงานของ navbar</p>
+    <p>เลื่อนหน้าจอขึ้นลงเพื่อดูการทำงานของ navbar</p>
+    <p>เลื่อนหน้าจอขึ้นลงเพื่อดูการทำงานของ navbar</p>
+    <p>เลื่อนหน้าจอขึ้นลงเพื่อดูการทำงานของ navbar</p>
+    <p>เลื่อนหน้าจอขึ้นลงเพื่อดูการทำงานของ navbar</p>
+    <p>เลื่อนหน้าจอขึ้นลงเพื่อดูการทำงานของ navbar</p>
+    <p>เลื่อนหน้าจอขึ้นลงเพื่อดูการทำงานของ navbar</p>
+    <p>เลื่อนหน้าจอขึ้นลงเพื่อดูการทำงานของ navbar</p>
+    <p>เลื่อนหน้าจอขึ้นลงเพื่อดูการทำงานของ navbar</p>
+    <p>เลื่อนหน้าจอขึ้นลงเพื่อดูการทำงานของ navbar</p>
+    <p>เลื่อนหน้าจอขึ้นลงเพื่อดูการทำงานของ navbar</p>
+    <p>เลื่อนหน้าจอขึ้นลงเพื่อดูการทำงานของ navbar</p>
+    <p>เลื่อนหน้าจอขึ้นลงเพื่อดูการทำงานของ navbar</p>
+    <p>เลื่อนหน้าจอขึ้นลงเพื่อดูการทำงานของ navbar</p>
+    <p>เลื่อนหน้าจอขึ้นลงเพื่อดูการทำงานของ navbar</p>
+    <p>เลื่อนหน้าจอขึ้นลงเพื่อดูการทำงานของ navbar</p>
+    <p>เลื่อนหน้าจอขึ้นลงเพื่อดูการทำงานของ navbar</p>
+    <p>เลื่อนหน้าจอขึ้นลงเพื่อดูการทำงานของ navbar</p>
+    <p>เลื่อนหน้าจอขึ้นลงเพื่อดูการทำงานของ navbar</p>
+    <p>เลื่อนหน้าจอขึ้นลงเพื่อดูการทำงานของ navbar</p>
+    <p>เลื่อนหน้าจอขึ้นลงเพื่อดูการทำงานของ navbar</p>
+    <p>เลื่อนหน้าจอขึ้นลงเพื่อดูการทำงานของ navbar</p>
+    <p>เลื่อนหน้าจอขึ้นลงเพื่อดูการทำงานของ navbar</p>
+  </div>
 
-<script>
-  const img = document.getElementById('scrollImage');
-  img.onload = function() {
-    const imageHeight = img.offsetHeight;
-    const containerHeight = img.parentElement.offsetHeight;
-    const scrollDistance = imageHeight - containerHeight;
+  <script>
+    const navbar = document.getElementById('navbar');
+    let prevScrollPos = window.pageYOffset;
 
-    if (scrollDistance > 0) {
-      img.style.animation = `scrollUpDown 10s infinite alternate linear`;
+    window.onscroll = function() {
+      const currentScrollPos = window.pageYOffset;
 
-      const styleSheet = document.createElement("style");
-      styleSheet.innerHTML = `@keyframes scrollUpDown {
-        0% { top: 0; }
-        100% { top: -${scrollDistance}px; }
-      }`;
-      document.head.appendChild(styleSheet);
-    }
-  };
-</script>
+      if (prevScrollPos > currentScrollPos) {
+        // เลื่อนขึ้น ทำให้ navbar ติด
+        navbar.classList.add('fixed');
+      } else {
+        // เลื่อนลง ทำให้ navbar ไม่ติด
+        navbar.classList.remove('fixed');
+      }
 
+      prevScrollPos = currentScrollPos;
+    };
+  </script>
 </body>
 </html>
