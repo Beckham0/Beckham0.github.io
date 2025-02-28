@@ -43,6 +43,17 @@ text-align: center;
 margin: 10px auto;
 }
 
+.warp_word{
+  width: 70%;
+  height: 20%;
+  overflow: clip;
+  z-index: 5;
+  position: relative;
+  left: 49%;
+  top: 7%;
+  display: block;
+}
+
 ***********************************************************************
 
 
@@ -171,13 +182,15 @@ margin: 10px auto;
 }
 
 .call_phone img {
-  transition: transform 1s ease-in-out; 
+  transition: transform 1s ease-in-out,opacity 1s ease-in-out; 
   transform: translateX(0); 
   color: #745712;
+  opacity: 1;
 }
 
 .call_phone:hover img {
   transform: translateX(20vw); 
+  opacity: 0;
 }
 
 .call_phone1:hover img {
@@ -186,7 +199,7 @@ margin: 10px auto;
 
 .call_phone h3 {
   font-weight: bold;
-  font-size: clamp(14px, 2.5vw, 40px);
+  font-size: clamp(1rem, 2.5vw, 40px);
 }
 
 .call_now{
@@ -197,7 +210,7 @@ margin: 10px auto;
   position: absolute;
   width: 55%;
   min-width: 12rem;
-  height: 60%;
+  height: auto;
 
 }
 
@@ -582,12 +595,14 @@ footer {
     top: 1.5rem !important;
   }
   .call_phone:hover div {
-    transform: translateX(-70%) !important;  
+    transform: translateX(-30%) !important;  
   }
   .img_line1:hover{
     min-width: 50px !important;
    
   }
-  
+  .warp_word{
+    left: 40% !important;
+  }
   
 }
