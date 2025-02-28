@@ -166,6 +166,13 @@ a {
     height: 650px!important;
   }
 
+  .trans_service{
+    transition: 1s ease;
+  }
+  .trans_service:hover{
+    transition: 1s ease;
+    transform: scale(1.1);
+  }
   /*
   .card:hover {
     transition: 1s ease;
@@ -378,6 +385,11 @@ a {
 @media (max-width: 768px) {
     .port {
         flex-direction: column-reverse;
+    }
+
+    .trans_service:hover{
+      transition: 1s ease;
+      transform: scale(1);
     }
 }
 
