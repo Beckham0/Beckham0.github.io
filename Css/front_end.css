@@ -165,8 +165,10 @@ a {
 }
 
   .card {
-    width: 380px!important;
-    height: 650px!important;
+    width: 15rem !important;
+    height: 650px !important;
+    min-width: 320px !important;
+  
   }
 
   .trans_service{
