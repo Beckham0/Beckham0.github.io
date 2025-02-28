@@ -422,28 +422,10 @@ body {
   transition: color 1s ease-in-out, transform 1s ease-in-out, background 1s ease-in-out;
 }
 
-.call_phone div {
-  transition: color 1s ease-in-out, transform 1s ease-in-out, background 1s ease-in-out;
-  transform: translateX(0); /* ค่าเริ่มต้น */
- 
-}
-
-.call_phone:hover div {
-  transform: translateX(-20%);
-  
-}
 
 
 
 
-.call_phone img {
-  transition: transform 1s ease-in-out; /* กำหนด transition */
-  transform: translateX(0); /* ค่าเริ่มต้น */
-  color: #745712;
-}
-.call_phone:hover img {
-  transform: translateX(400%); /* เปลี่ยนค่าเมื่อ hover */
-}
 
 
 .call_phone h3 {
