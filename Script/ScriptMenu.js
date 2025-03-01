@@ -92,7 +92,11 @@ function createfooter() {
         </div></div>
       </div>
     </div>
+
+    
   </footer>
+
+  
   `;
   document.getElementById("footerHTML1").innerHTML = footerHTML;
 
@@ -102,3 +106,4 @@ function createfooter() {
     toggle: false // หรือ true ถ้าต้องการให้เมนูเปิดตอนโหลดหน้าเว็บ
   });
 }
+ 
