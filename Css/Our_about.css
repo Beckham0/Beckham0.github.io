@@ -147,7 +147,7 @@ body {
 .block_text {
   background: rgb(202, 174, 85);
   color: aliceblue;
-  font-size: clamp(20px, 2.5vw, 47px);
+  font-size: clamp(16px, 2.3vw, 40px);
   font-weight: 600;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   display: flex;
