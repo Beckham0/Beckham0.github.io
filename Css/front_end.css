@@ -187,7 +187,7 @@ a {
 .card-title {
     margin-bottom: var(--bs-card-title-spacer-y);
     color: var(--bs-card-title-color);
-    font-size: 35px;
+    font-size:clamp(20px, 2.5vw, 20px);
     text-align: center;
     background-color: #f5c254;
     border-radius: 10px;

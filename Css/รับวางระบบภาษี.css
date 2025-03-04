@@ -178,6 +178,13 @@ body {
     font-size: 3rem;
     text-align: center;
   }
+
+  .Card_3 h2 {
+    font-weight: 550;
+    color: #745712;
+    font-size: 2.3rem;
+    text-align: center;
+  }
   
   
   .Card_4 h1 {
