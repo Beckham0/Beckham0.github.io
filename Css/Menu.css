@@ -219,10 +219,7 @@ margin: 10px auto;
 /* ************************************************************ */
 
 .calling_and_line{
-  justify-content: center;
-  display: grid;
-  grid-template-columns: 50% 50%;
-   height: 8rem;
+  margin-top: 5%;
 }
 
 .img_line{
@@ -451,11 +448,7 @@ footer {
 @media (max-width: 1000px) {
 
   .calling_and_line{
-    justify-content: center;
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: 1fr 1fr;
-     height: 20rem;
+    margin-top: 10%;
   }
 
 .call_phone img{

@@ -123,3 +123,142 @@ body{
   }
 
 
+
+
+
+
+
+  
+.chaty-channel-list{
+  position: fixed;
+  bottom: 75px;
+  right: 70px;
+  z-index: 10001;
+}
+.chaty-channel-list svg{
+width: 54px;
+height: 54px;
+}
+
+.container5 {
+  width: 100%;
+  margin: auto;
+}
+.title-5 {
+  font-size: 6vmax;
+  font-weight: bold;
+  color: #8f6f2b;
+  margin-bottom: 20px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.item-p {
+  text-align: center;
+  padding: 10px 0;
+  max-width: 1277px;
+  margin: 0 auto;
+}
+
+.port {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+@media (max-width: 768px) {
+  .port {
+      flex-direction: column-reverse;
+  }
+
+  .trans_service:hover{
+    transition: 1s ease;
+    transform: scale(1);
+  }
+}
+
+.buttons-1 {
+  flex: 1 1 calc(50% - 10px);
+  min-width: 300px;
+  padding: 10px;
+  text-align: center;
+}
+
+.buttons-1-1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  column-gap: 1rem;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 90px;
+
+}
+
+.buttons-1-1 h1 {
+  font-size: 40px;
+  margin: 0 0 20px;
+  color: #5e4000;
+  font-weight: bold;
+}
+
+.buttons-1-1 p {
+  font-size: 20px;
+  color: #d09515;
+  padding: 20px 0;
+}
+
+.buttons-1-2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  column-gap: 1rem;
+  margin: 1rem 0;
+  padding: 0.1px 0.1px;
+  max-width: 270px;
+  margin: 0 auto;
+  height: auto;
+}
+
+.buttons-1-2 a {
+  margin: 1rem 0;
+  background-color: #fbe3b0;
+  padding: 13px 30px;
+  border-radius: 50px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.21);
+  text-decoration: none;
+}
+
+.buttons-1-2 h1 {
+  font-size: 40px;
+  margin: 0 0 10px;
+  color: #956600;
+  font-weight: bold;
+}
+
+.buttons-1-2 a:hover {
+  transition: 1s ease;
+  transform: scale(1.1);
+}
+
+
+
+
+.buttons-2 {
+  flex: 1 1 calc(50% - 10px);
+  min-width: 300px;
+  width: 100%;
+  text-align: center;
+  height: auto;
+  padding: 0 20px;
+}
+
+
+.buttons-2 img {
+  width: 100%;
+  justify-content: center;
+  height: 500px;    
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.21);
+
+}
