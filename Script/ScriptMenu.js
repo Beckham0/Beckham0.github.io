@@ -63,7 +63,7 @@ function createfooter() {
         <p id="footer_2" class="address">
           115/8 หมู่บ้านพฤกษา รังสิต-วงแหวน หมู่2 ตำบลลำผักกูด อำเภอธัญบุรี ปทุมธานี</p>
           <p id="footer_2_1" class="address">
-           โทร 062-896-4535 อีเมล: info@nrpmyaccount.com</p>
+           โทร 062-896-4535   อีเมล: nrp.acc48@gmail.com</p>
          
         </div>
       </div>

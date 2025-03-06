@@ -556,4 +556,154 @@ a {
 
 
 
+.footer-column-3 .column {
+  width: 219px;
+  height: 62px;
+}
+.footer-column-3{
+  min-width: 382px;
+  margin-top: 51px;
+}
 
+.footer-column-3 h1{
+  font-size: 30px;
+  margin-bottom: 10px;
+  text-align: start;
+  margin-left: 21px;
+  margin-top: 30px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.footer-column-3 p{
+  font-size: 20px;
+  margin-bottom: 0;
+  text-align: start;
+  margin-left: 50px;
+}
+
+.footer-column-3 .top_column {
+  gap: 20px;
+  flex-direction: column-reverse;
+  justify-content: start;
+  align-items: start;
+}
+
+.footer-column-3 .column {
+    display: flex;
+    gap:0px;
+    flex-direction: row;
+    width: 319px;
+    height: 76px;
+    border-radius:89px;
+    margin-bottom: 10px;
+
+}
+
+.footer-column-3 .column img {
+  text-align: start;
+  margin:12px;
+  width: 56px;
+  height: 52px;
+}
+
+.footer-column-3 .column h2 {
+  font-size: 25px;
+  color: #ffffff;
+  margin-bottom: 0;
+  text-align: start;
+  margin-top: 5px;
+  margin-right: 5px;
+  font-weight: bold;
+}
+
+.footer-column-3 .column h3 {
+  font-size: 20px;
+  color: #ffffff;
+  margin-bottom: 0;
+  text-align: start;
+  margin-top: 5px;
+  margin-right: 5px;
+  font-weight: bold;
+}
+
+.footer-column-3 a{
+color: #ffffff;
+}
+
+@media (max-width: 768px) {
+
+
+  .Card_33 {
+    position: relative;
+    width: 95%;
+    height: 71%!important;
+    background:rgb(202, 174, 85);
+    display: flex;
+    flex-direction: column-reverse;
+    border-radius:0px 50px 50px 0px;
+    min-height: 130px;
+  }
+
+  .Card_33_wrap {
+    display: flex;
+    width: 50%;
+    height: 85%!important;
+    right: 0;
+    position: absolute;
+    justify-content: right;
+    align-items: center;
+  }
+
+  .footer-column-3 {
+      width: 100%;
+      flex:1;
+      min-width: 247px;
+      margin:0px;
+  }
+
+  .footer-column-3 .column {
+    width: 219px;
+    height: 62px;
+  }
+
+  .footer-column-3 .top_column {
+    justify-content: start;
+    align-items: start;
+  }
+
+  .footer-column-3 .column img {
+    text-align: start;
+    margin:17px;
+    width: 33px;
+    height: 29px;
+}
+
+
+  .footer-column-3 .column h2{
+    text-align: start;
+    font-size: 19px;
+ }
+
+ .footer-column-3 .column h3{
+  text-align: start;
+  font-size: 14px;
+}
+
+  .footer-column-3 .top_column {
+    display: flex;
+    gap: 20px;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-column-3 a{
+    display: flex;
+    gap: 20px;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+}
