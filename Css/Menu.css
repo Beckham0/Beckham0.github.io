@@ -245,7 +245,7 @@ margin: 10px auto;
 /* footer */
 
 footer {
-  background-color: rgb(202, 174, 85);;
+  background-color: rgb(23, 23, 23);
   color: white;
   padding: 30px 50px;
 }
@@ -545,11 +545,11 @@ footer {
     }
 
     .footer_background {
-      background-position: center;
+      background-position:center;
       background-size: 100%;
       background-repeat: no-repeat;
       background-color: rgba(223, 223, 223, 0);
-      background-image: linear-gradient(rgba(202, 174, 85, 0.66), rgba(202, 174, 85, 0.73)), url("../Source/IMG_04511.png");
+      background-image: linear-gradient(rgba(21, 21, 21, 0.66), rgba(23, 23, 23, 0.73)), url("../Source/IMG_04511.png");
       flex-wrap: nowrap;
     }
     .footer_img{
