@@ -55,49 +55,149 @@ function createNavbar() {
  
 function createfooter() {
   const footerHTML = `
-<footer style="border-top: 11px double #fff1bc94;" class = "FooterHTML">
-    <div class="footer-container footer_background">
-      <div class="footer-left">
-        <div class="footer-left-1 footer_img"><img src="Source/IMG_04511.png" alt="NRP Logo" class="logo"><p  id="footer_1" class="company-name">บริษัท เอ็นอาร์พี มายแอคเคาท์ จำกัด</p>
-        <p id="footer_2" class="address">
-          115/8 หมู่บ้านพฤกษา รังสิต-วงแหวน หมู่2 ตำบลลำผักกูด อำเภอธัญบุรี ปทุมธานี</p>
-          <p id="footer_2_1" class="address">
-           โทร 062-896-4535   อีเมล: nrp.acc48@gmail.com</p></div>
-        <div class="footer-left-1">
-         <div class="services">
-          <ul >
-            <h1 style="font-size: clamp(23px,2.5vw,35px);font-weight: 600;">บริการเรา</h1>
-            <a href="#" class=""><li id="footer_3">รับทำบัญชี ปิดงบ ยื่นภาษี</li></a>
-            <a href="#" class=""><li id="footer_4">บริการสอบบัญชี</li></a>
-            <a href="#" class=""><li id="footer_5">รับวางระบบภาษี</li></a>
-            <a href="#" class=""><li id="footer_6">บริการงานทะเบียน ครบวงจร</li></a>
-            <a href="#" class=""><li id="footer_7">บริการขอใบอนุญาติสถานที่เก็บอาหาร</li></a>
-            <a href="#" class=""><li id="footer_7">บริการงานจดทะเบียนบริษัท</li></a>
-            <a href="#" class=""><li id="footer_7">บริการขอใบอนุญาตินำเข้า-ส่งออก</li></a>
-          </ul>
-        </div></div>
-        <div class="s-1">
-        <div class="divider"></div>
-        </div>
-      </div>
-      <div class="footer-right">
-        <div class="s-1">
-        <div class="divider"></div>
-        <div class="services">
-          <ul>
-            <h1 style="font-size: clamp(23px,2.5vw,35px);font-weight: 600;">บริการเรา</h1>
-            <a href="#" class=""><li id="footer_8">เกี่ยวกับเรา</li></a>
-            <a href="#" class=""><li id="footer_9">ผลงานเรา</li></a>
-            <a href="#" class=""><li id="footer_10">ข่าวสาร</li></a>
-            <a href="#" class=""><li id="footer_11">ติดต่อเรา</li></a>
-          </ul>
-        </div></div>
-      </div>
-    </div>
+    <style>
 
-    
+        .footer {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 20px;
+            background-color: #222;
+        }
+
+        .footer-column {
+            flex: 1;
+            min-width: 200px;
+            padding: 10px;
+            text-align: left;
+        }
+
+        h3 {
+            color: #f4b400;
+            margin: 0;
+            font-size: 35px;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        h4 {
+            color: #ffffff;
+            margin: 0;
+            font-size: 20px;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        a {
+          font-size: 19px;
+          color: #ffffff;
+          margin: 0;
+          font-weight: bold;
+        }
+
+        p {
+          font-size: 19px;
+          color: #ffffff;
+          margin: 0;
+        }
+
+        .logo {
+          width: 200px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+        }
+
+        .contact img {
+          width: 139px;
+          margin-right: 10px;
+        }
+
+        .qr-code {
+            width: 80px;
+            height: 139px;
+        }
+
+        /* สำหรับหน้าจอแคบลงเป็นแนวตั้ง */
+        @media (max-width: 768px) {
+            .footer {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .footer-column {
+                width: 100%;
+                text-align: center;
+            }
+        }
+
+        /* สำหรับหน้าจอมือถือแบ่งเป็น 2 แถว 2 คอลัมน์ */
+        @media (max-width: 480px) {
+            .footer {
+                flex-wrap: wrap;
+                flex-direction: row;
+                justify-content: center;
+            }
+
+            .footer-column {
+                width: 45%;
+                text-align: left;
+            }
+
+  .logo {
+    width: 155px;
+    margin-bottom: 10px;
+    margin-left: -6px;
+  }
+
+p {
+  font-size: 15px;
+  color: #ffffff;
+  margin:
+0;
+}
+        }
+    </style>
+
+  <footer class="footer">
+      <!-- คอลัมน์แรก : โลโก้และข้อมูลบริษัท -->
+      <div class="footer-column">
+          <img src="Source/IMG_04511.ico" alt="โลโก้บริษัท" class="logo">
+          <h4>บริษัท เอ็นอาร์พี มายแอคเคานท์ จำกัด</h4>
+          <p>115/8 หมู่บ้านพฤกษา รังสิต-วงแหวน</p>
+          <p>โทร: 062-896-4535</p>
+          <p>อีเมล: nrp.acc48@gmail.com</p>
+      </div>
+  
+      <!-- คอลัมน์สอง : เมนู -->
+      <div class="footer-column">
+          <h3>เมนู</h3>
+          <a href=""><p>หน้าเเรก</p></a>
+          <a href=""><p>เกี่ยวกับเรา</p></a>
+          <a href=""><p><p>ข่าวสาร</p></p></a>
+          <a href=""><p>ติดต่อเรา</p></a>
+      </div>
+  
+      <!-- คอลัมน์สาม : บริการของเรา -->
+      <div class="footer-column">
+          <h3>บริการเรา</h3>
+          <a href=""><p>รับทำบัญชี ปิดงบ ยื่นภาษี</p></a>
+          <a href=""><p>บริการสอบบัญชี</p></a>
+          <a href=""><p>รับวางระบบภาษี</p></a>
+          <a href=""><p>บริการงานทะเบียน</p></a>
+          <a href=""><p>บริการขอใบอนุญาติสถานที่เก็บอาหาร</p></a>
+          <a href=""><p>บริการงานทะเบียนบริษัท</p></a>
+          <a href=""><p>บริการขอใบอนุญาตินำเข้า-ส่งออก</p></a>
+      </div>
+  
+      <!-- คอลัมน์สี่ : ข้อมูลการติดต่อ -->
+      <div class="footer-column contact">
+          <h3>ติดต่อเรา</h3>
+          <p style="margin: 0;">โทร: 062-896-4535</p>
+          <p>Line ID: nrp_myacc</p>
+          <img class="qr-code" src="Source/Qr.jpg" alt="QR Code">
+          <a href="https://www.facebook.com/people/%E0%B8%9A%E0%B8%A3%E0%B8%B4%E0%B8%A9%E0%B8%B1%E0%B8%97-%E0%B9%80%E0%B8%AD%E0%B9%87%E0%B8%99%E0%B8%AD%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B8%9E%E0%B8%B5-%E0%B8%A1%E0%B8%B2%E0%B8%A2%E0%B9%81%E0%B8%AD%E0%B8%84%E0%B9%80%E0%B8%84%E0%B8%B2%E0%B8%97%E0%B9%8C-%E0%B8%88%E0%B8%B3%E0%B8%81%E0%B8%B1%E0%B8%94/100070207682246/?rdid=DkqLQSuGREsL0orp&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F19tFBpR9mQ%2F"><img src="Source/facebook1.png" alt="Facebook" style="border-radius: 20px;padding: 10px;"></a>
+      </div>
   </footer>
-
   
   `;
   document.getElementById("footerHTML1").innerHTML = footerHTML;

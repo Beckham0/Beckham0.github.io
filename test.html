@@ -1,102 +1,185 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title>Navbar ติด/ไม่ติด</title>
-  <style>
-    #navbar {
-      position: fixed; /* เปลี่ยนเป็น fixed เพื่อให้ top ทำงานได้ */
-      top: -60px; /* เริ่มต้นให้ navbar ซ่อนอยู่ด้านบน */
-      width: 100%;
-      background-color: #333;
-      color: white;
-      padding: 10px 0;
-      transition: top 1s ease-in-out; /* เปลี่ยนเป็น transition: top */
-    }
+<html lang="th">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Footer with Logo</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #222;
+            color: white;
+        }
 
-    #navbar ul {
-      list-style: none;
-      text-align: center;
-    }
+        .footer {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 20px;
+            background-color: #222;
+        }
 
-    #navbar li {
-      display: inline;
-      margin: 0 20px;
-    }
+        .footer-column {
+            flex: 1;
+            min-width: 200px;
+            padding: 10px;
+            text-align: left;
+        }
 
-    #navbar a {
-      color: white;
-      text-decoration: none;
-    }
+        h3 {
+            color: #f4b400;
+            margin: 0;
+            font-size: 30px;
+            margin-bottom: 5px;
+        }
 
-    #navbar.fixed {
-      top: 0; /* เปลี่ยน top เป็น 0 เพื่อให้ navbar แสดงผล */
-    }
+        h4 {
+            color: #ffffff;
+            margin: 0;
+            font-size: 17px;
+            margin-bottom: 5px;
+        }
 
-    #content {
-      margin-top: 60px;
-    }
-  </style>
+        a {
+          font-size: 17px;
+          color: #ffffff;
+          margin: 0;
+        }
+
+        .logo {
+          width: 175px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+        }
+
+        .contact img {
+          width: 139px;
+          margin-right: 10px;
+        }
+
+        .qr-code {
+            width: 80px;
+            height: 139px;
+        }
+
+        /* สำหรับหน้าจอแคบลงเป็นแนวตั้ง */
+        @media (max-width: 768px) {
+            .footer {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .footer-column {
+                width: 100%;
+                text-align: center;
+            }
+        }
+
+        /* สำหรับหน้าจอมือถือแบ่งเป็น 2 แถว 2 คอลัมน์ */
+        @media (max-width: 480px) {
+            .footer {
+                flex-wrap: wrap;
+                flex-direction: row;
+                justify-content: center;
+            }
+
+            .footer-column {
+                width: 45%;
+                text-align: left;
+            }
+
+            .logo {
+  width: 178px;
+  margin-bottom: 10px;
+  margin-left: 91px;
+}
+        }
+    </style>
 </head>
+
 <body>
-  <nav id="navbar">
-    <ul>
-      <li><a href="#">หน้าแรก</a></li>
-      <li><a href="#">เกี่ยวกับเรา</a></li>
-      <li><a href="#">บริการ</a></li>
-      <li><a href="#">ติดต่อ</a></li>
-    </ul>
-  </nav>
 
-  <div id="content">
-    <p>เลื่อนหน้าจอขึ้นลงเพื่อดูการทำงานของ navbar</p>
-    <p>เลื่อนหน้าจอขึ้นลงเพื่อดูการทำงานของ navbar</p>
-    <p>เลื่อนหน้าจอขึ้นลงเพื่อดูการทำงานของ navbar</p>
-    <p>เลื่อนหน้าจอขึ้นลงเพื่อดูการทำงานของ navbar</p>
-    <p>เลื่อนหน้าจอขึ้นลงเพื่อดูการทำงานของ navbar</p>
-    <p>เลื่อนหน้าจอขึ้นลงเพื่อดูการทำงานของ navbar</p>
-    <p>เลื่อนหน้าจอขึ้นลงเพื่อดูการทำงานของ navbar</p>
-    <p>เลื่อนหน้าจอขึ้นลงเพื่อดูการทำงานของ navbar</p>
-    <p>เลื่อนหน้าจอขึ้นลงเพื่อดูการทำงานของ navbar</p>
-    <p>เลื่อนหน้าจอขึ้นลงเพื่อดูการทำงานของ navbar</p>
-    <p>เลื่อนหน้าจอขึ้นลงเพื่อดูการทำงานของ navbar</p>
-    <p>เลื่อนหน้าจอขึ้นลงเพื่อดูการทำงานของ navbar</p>
-    <p>เลื่อนหน้าจอขึ้นลงเพื่อดูการทำงานของ navbar</p>
-    <p>เลื่อนหน้าจอขึ้นลงเพื่อดูการทำงานของ navbar</p>
-    <p>เลื่อนหน้าจอขึ้นลงเพื่อดูการทำงานของ navbar</p>
-    <p>เลื่อนหน้าจอขึ้นลงเพื่อดูการทำงานของ navbar</p>
-    <p>เลื่อนหน้าจอขึ้นลงเพื่อดูการทำงานของ navbar</p>
-    <p>เลื่อนหน้าจอขึ้นลงเพื่อดูการทำงานของ navbar</p>
-    <p>เลื่อนหน้าจอขึ้นลงเพื่อดูการทำงานของ navbar</p>
-    <p>เลื่อนหน้าจอขึ้นลงเพื่อดูการทำงานของ navbar</p>
-    <p>เลื่อนหน้าจอขึ้นลงเพื่อดูการทำงานของ navbar</p>
-    <p>เลื่อนหน้าจอขึ้นลงเพื่อดูการทำงานของ navbar</p>
-    <p>เลื่อนหน้าจอขึ้นลงเพื่อดูการทำงานของ navbar</p>
-    <p>เลื่อนหน้าจอขึ้นลงเพื่อดูการทำงานของ navbar</p>
-    <p>เลื่อนหน้าจอขึ้นลงเพื่อดูการทำงานของ navbar</p>
-    <p>เลื่อนหน้าจอขึ้นลงเพื่อดูการทำงานของ navbar</p>
-    <p>เลื่อนหน้าจอขึ้นลงเพื่อดูการทำงานของ navbar</p>
-    <p>เลื่อนหน้าจอขึ้นลงเพื่อดูการทำงานของ navbar</p>
-    <p>เลื่อนหน้าจอขึ้นลงเพื่อดูการทำงานของ navbar</p>
-    <p>เลื่อนหน้าจอขึ้นลงเพื่อดูการทำงานของ navbar</p>
-  </div>
-
+  <footer class="footer">
+      <!-- คอลัมน์แรก : โลโก้และข้อมูลบริษัท -->
+      <div class="footer-column">
+          <img src="Source/IMG_04511.ico" alt="โลโก้บริษัท" class="logo">
+          <h4>บริษัท เอ็นอาร์พี มายแอคเคานท์ จำกัด</h4>
+          <p>115/8 หมู่บ้านพฤกษา รังสิต-วงแหวน</p>
+          <p>โทร: 062-896-4535</p>
+          <p>อีเมล: nrp.acc48@gmail.com</p>
+      </div>
+  
+      <!-- คอลัมน์สอง : เมนู -->
+      <div class="footer-column">
+          <h3>เมนู</h3>
+          <a href=""><p>หน้าเเรก</p></a>
+          <a href=""><p>เกี่ยวกับเรา</p></a>
+          <a href=""><p><p>ข่าวสาร</p></p></a>
+          <a href=""><p><p>ติดต่อเรา</p</p></a>
+      </div>
+  
+      <!-- คอลัมน์สาม : บริการของเรา -->
+      <div class="footer-column">
+          <h3>บริการเรา</h3>
+          <a href=""><p>รับทำบัญชี ปิดงบ ยื่นภาษี</p></a>
+          <a href=""><p>รับทำบัญชี ปิดงบ ยื่นภาษี</p></a>
+          <a href=""><p>รับทำบัญชี ปิดงบ ยื่นภาษี</p></a>
+          <a href=""><p>รับทำบัญชี ปิดงบ ยื่นภาษี</p></a>
+          <a href=""><p>รับทำบัญชี ปิดงบ ยื่นภาษี</p></a>
+          <a href=""><p>รับทำบัญชี ปิดงบ ยื่นภาษี</p></a>
+          <a href=""><p>รับทำบัญชี ปิดงบ ยื่นภาษี</p></a>
+      </div>
+  
+      <!-- คอลัมน์สี่ : ข้อมูลการติดต่อ -->
+      <div class="footer-column contact">
+          <h3>ติดต่อเรา</h3>
+          <p style="margin: 0;">โทร: 0801937767</p>
+          <p>Line ID: Nosleep</p>
+          <img class="qr-code" src="Source/line.png" alt="QR Code">
+          <img src="Source/facebook1.png" alt="Facebook">
+      </div>
+  </footer>
+  
+  <!-- Code injected by live-server -->
   <script>
-    const navbar = document.getElementById('navbar');
-    let prevScrollPos = window.pageYOffset;
-
-    window.onscroll = function() {
-      const currentScrollPos = window.pageYOffset;
-
-      if (prevScrollPos > currentScrollPos) {
-        // เลื่อนขึ้น ทำให้ navbar ติด
-        navbar.classList.add('fixed');
-      } else {
-        // เลื่อนลง ทำให้ navbar ไม่ติด
-        navbar.classList.remove('fixed');
-      }
-
-      prevScrollPos = currentScrollPos;
-    };
+    // <![CDATA[  <-- For SVG support
+    if ('WebSocket' in window) {
+      (function () {
+        function refreshCSS() {
+          var sheets = [].slice.call(document.getElementsByTagName("link"));
+          var head = document.getElementsByTagName("head")[0];
+          for (var i = 0; i < sheets.length; ++i) {
+            var elem = sheets[i];
+            var parent = elem.parentElement || head;
+            parent.removeChild(elem);
+            var rel = elem.rel;
+            if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+              var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+              elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+            }
+            parent.appendChild(elem);
+          }
+        }
+        var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+        var address = protocol + window.location.host + window.location.pathname + '/ws';
+        var socket = new WebSocket(address);
+        socket.onmessage = function (msg) {
+          if (msg.data == 'reload') window.location.reload();
+          else if (msg.data == 'refreshcss') refreshCSS();
+        };
+        if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+          console.log('Live reload enabled.');
+          sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+        }
+      })();
+    }
+    else {
+      console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+    }
+    // ]]>
   </script>
-</body>
+  
+  
+  </body>
 </html>
