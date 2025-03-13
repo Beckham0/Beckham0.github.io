@@ -58,36 +58,38 @@ function createfooter() {
 <footer style="border-top: 11px double #fff1bc94;" class = "FooterHTML">
     <div class="footer-container footer_background">
       <div class="footer-left">
-        <div class="footer-left-1 footer_img"><img src="Source/IMG_04511.png" alt="NRP Logo" class="logo"></div>
-        <div class="footer-left-1"><p  id="footer_1" class="company-name">บริษัท เอ็นอาร์พี มายแอคเคาท์ จำกัด</p>
+        <div class="footer-left-1 footer_img"><img src="Source/IMG_04511.png" alt="NRP Logo" class="logo"><p  id="footer_1" class="company-name">บริษัท เอ็นอาร์พี มายแอคเคาท์ จำกัด</p>
         <p id="footer_2" class="address">
           115/8 หมู่บ้านพฤกษา รังสิต-วงแหวน หมู่2 ตำบลลำผักกูด อำเภอธัญบุรี ปทุมธานี</p>
           <p id="footer_2_1" class="address">
-           โทร 062-896-4535   อีเมล: nrp.acc48@gmail.com</p>
-         
+           โทร 062-896-4535   อีเมล: nrp.acc48@gmail.com</p></div>
+        <div class="footer-left-1">
+         <div class="services">
+          <ul >
+            <h1 style="font-size: clamp(23px,2.5vw,35px);font-weight: 600;">บริการเรา</h1>
+            <a href="#" class=""><li id="footer_3">รับทำบัญชี ปิดงบ ยื่นภาษี</li></a>
+            <a href="#" class=""><li id="footer_4">บริการสอบบัญชี</li></a>
+            <a href="#" class=""><li id="footer_5">รับวางระบบภาษี</li></a>
+            <a href="#" class=""><li id="footer_6">บริการงานทะเบียน ครบวงจร</li></a>
+            <a href="#" class=""><li id="footer_7">บริการขอใบอนุญาติสถานที่เก็บอาหาร</li></a>
+            <a href="#" class=""><li id="footer_7">บริการงานจดทะเบียนบริษัท</li></a>
+            <a href="#" class=""><li id="footer_7">บริการขอใบอนุญาตินำเข้า-ส่งออก</li></a>
+          </ul>
+        </div></div>
+        <div class="s-1">
+        <div class="divider"></div>
         </div>
       </div>
       <div class="footer-right">
         <div class="s-1">
         <div class="divider"></div>
         <div class="services">
-          <ul >
-            <a href="#" class=""><li id="footer_3">สำนักงานบัญชีทรัปเพิ้ลเอิร์น</li></a>
-            <a href="#" class=""><li id="footer_4">เป็นที่ปรึกษาการด้านบัญชี</li></a>
-            <a href="#" class=""><li id="footer_5">รับทำบัญชีรายเดือน</li></a>
-            <a href="#" class=""><li id="footer_6">รับทำบัญชีรายปี</li></a>
-            <a href="#" class=""><li id="footer_7">ระบบงบการเงิน</li></a>
-          </ul>
-        </div></div>
-        <div class="s-1">
-        <div class="divider"></div>
-        <div class="services">
           <ul>
-            <a href="#" class=""><li id="footer_8">สำนักงานบัญชีทรัปเพิ้ลเอิร์น</li></a>
-            <a href="#" class=""><li id="footer_9">เป็นที่ปรึกษาการด้านบัญชี</li></a>
-            <a href="#" class=""><li id="footer_10">รับทำบัญชีรายเดือน</li></a>
-            <a href="#" class=""><li id="footer_11">รับทำบัญชีรายปี</li></a>
-            <a href="#" class=""><li id="footer_12">ระบบงบการเงิน</li></a>
+            <h1 style="font-size: clamp(23px,2.5vw,35px);font-weight: 600;">บริการเรา</h1>
+            <a href="#" class=""><li id="footer_8">เกี่ยวกับเรา</li></a>
+            <a href="#" class=""><li id="footer_9">ผลงานเรา</li></a>
+            <a href="#" class=""><li id="footer_10">ข่าวสาร</li></a>
+            <a href="#" class=""><li id="footer_11">ติดต่อเรา</li></a>
           </ul>
         </div></div>
       </div>
