@@ -90,26 +90,41 @@
                  
                   <form style="text-align: start;">
                     <div class="mb-3">
-                      <label for="exampleInputEmail1" class="form-label" style="font-size: 1.5rem;">ชื่อ</label>
-                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                      <div id="emailHelp" class="form-text" style="font-size: 1.5rem;">ชื่อ-นามสกุล</div>
+                      <label for="name" class="form-label" style="font-size: 1.5rem;">ชื่อ</label>
+                      <input type="text" class="form-control" id="name" aria-describedby="nameHelp">
+                      <div id="nameHelp" class="form-text" style="font-size: 1.5rem;">ชื่อ-นามสกุล</div>
                     </div>
-                   
+                  
                     <div class="mb-3">
-                      <label for="#" class="form-label" style="font-size: 1.5rem;">อีเมล</label>
-                      <input type="text" class="form-control" id="#">
+                      <label for="email" class="form-label" style="font-size: 1.5rem;">อีเมล</label>
+                      <input type="email" class="form-control" id="email">
                     </div>
+                  
                     <div class="mb-3">
-                      <label for="#" class="form-label" style="font-size: 1.5rem;">เบอร์ติดต่อกลับ</label>
-                      <input type="text" class="form-control" id="#">
+                      <label for="phone" class="form-label" style="font-size: 1.5rem;">เบอร์ติดต่อกลับ</label>
+                      <input type="tel" class="form-control" id="phone">
                     </div>
+                  
                     <div class="mb-3">
-                      <label for="massges" class="form-label" style="font-size: 1.5rem;">ข้อความ</label>
-                      <textarea class="form-control" aria-label="With textarea"></textarea>
-                      <br>
-                      <button type="submit" class="btn btn-primary" style="font-size: 1.5rem;">Submit</button>
+                      <label for="topic" class="form-label" style="font-size: 1.5rem;">เลือกบริการที่สนใจ</label>
+                      <select class="form-select" id="topic" style="font-size: 1.5rem;">
+                        <option selected>รับทำบัญชี ปิดงบ ยืนภาษี</option>
+                        <option value="1">บริการสอบบัญชี</option>
+                        <option value="2">รับวางระบบภาษี</option>
+                        <option value="3">บริการงานทะเบียน</option>
+                        <option value="4">บริการขอใบอนุญาติสถานที่เก็บอาหาร</option>
+                        <option value="5">บริการงานจดทะเบียนบริษัท</option>
+                        <option value="6">บริการขอใบอนุญาตินำเข้า-ส่งออก</option>
+                      </select>
                     </div>
-                </div>
+                  
+                    <div class="mb-3">
+                      <label for="message" class="form-label" style="font-size: 1.5rem;">ข้อความ</label>
+                      <textarea class="form-control" id="message" aria-label="With textarea"></textarea>
+                    </div>
+                  
+                    <button type="submit" class="btn btn-primary" style="font-size: 1.5rem;">Submit</button>
+                  </form>
               </div>
             </div>
           </div>

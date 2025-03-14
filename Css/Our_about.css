@@ -137,7 +137,7 @@ a {
 .Card_2 h1 {
   font-weight: 600;
   color: #ffffff;
-  text-shadow: 0px 5px 12px #030303;
+  text-shadow: 0px 5px 12px #0303036c;
   font-size: 3.5rem;
 
 }
@@ -145,7 +145,6 @@ a {
 .Card_2 h2 {
   font-weight: 600;
   color: #745712;
-  text-shadow: 0px -2px 47px #030303;
 
 }
 

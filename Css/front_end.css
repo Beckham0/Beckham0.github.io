@@ -158,10 +158,23 @@ a {
     margin-top: 10px;
 }
 .service-boxes {
+  display: flex;
+  flex-wrap: wrap; /* ให้ขึ้นบรรทัดใหม่ถ้ากว้างเกิน */
+  justify-content: flex-start; /* จัดให้ชิดซ้าย */
+  gap: 20px; /* ระยะห่างระหว่างการ์ด */
+  padding: 10px;
+  margin-left: 9%;
+}
+
+@media (max-width: 768px) {
+
+  .service-boxes {
     display: flex;
-    justify-content: center;
-    gap: 25px;
     flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 0;
+  }
+
 }
 
   .card {
@@ -642,6 +655,7 @@ color: #ffffff;
 }
 
 @media (max-width: 768px) {
+
 
   .card_img1 {
     width: 96% !important;
