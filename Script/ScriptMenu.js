@@ -2,9 +2,9 @@ function createNavbar() {
     const navbarHTML = `
     
   <nav class="navbar navbar-expand-lg bg-body-tertiary"style="z-index: 999; ">
-    <div class="container-fluid scope_manu" style="--bs-gutter-x: 0.9rem;">
-      <a class="navbar-brand" href="./index.html"> <img src="Source/IMG_04511.png" width="130" height="94"></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <div class="container-fluid scope_manu" style="--bs-gutter-x: 0rem;">
+      <a class="navbar-brand" href="./index.html"> <img src="Source/IMG_04511.png" width="100" height="74"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="margin-right: 10px;">
         <span class="navbar-toggler-icon">MENU</span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">

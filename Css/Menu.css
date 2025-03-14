@@ -96,7 +96,7 @@ margin: 10px auto;
 }
 
 .navbar-brand{
-  justify-self: end;
+  justify-self: start;
 }
 
 .collapse navbar-collapse{
@@ -445,6 +445,10 @@ footer {
   align-items: center;
 }
 
+.navbar-brand{
+  margin: auto !important;
+}
+
 @media (max-width: 1000px) {
 
   .calling_and_line{
@@ -533,8 +537,8 @@ footer {
     
     }
     .navbar-brand{
-      /*padding-left: 2rem;*/
-      margin: auto !important;
+      padding-left: 1rem;
+      margin: 10px !important;
     }
     .scope_manu{
       width: 100%;
