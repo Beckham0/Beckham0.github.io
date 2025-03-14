@@ -2,10 +2,10 @@ function createNavbar() {
     const navbarHTML = `
     
   <nav class="navbar navbar-expand-lg bg-body-tertiary"style="z-index: 999; ">
-    <div class="container-fluid scope_manu" style="--bs-gutter-x: 0.5rem;">
+    <div class="container-fluid scope_manu" style="--bs-gutter-x: 0.9rem;">
       <a class="navbar-brand" href="./index.html"> <img src="Source/IMG_04511.png" width="130" height="94"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon">MENU</span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav " >
@@ -63,6 +63,7 @@ function createfooter() {
             justify-content: space-between;
             padding: 20px;
             background-color: #222;
+            margin-left: 100px;
         }
 
         .footer-column {
@@ -122,6 +123,7 @@ function createfooter() {
             .footer {
                 flex-direction: column;
                 align-items: center;
+                margin-left: 0;
             }
 
             .footer-column {
@@ -136,6 +138,7 @@ function createfooter() {
                 flex-wrap: wrap;
                 flex-direction: row;
                 justify-content: center;
+                margin-left: 0;
             }
 
             .footer-column {

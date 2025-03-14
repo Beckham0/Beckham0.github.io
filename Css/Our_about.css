@@ -161,7 +161,7 @@ a {
 }
 
 .color_block_r {
-  transform: translateX(-50%);
+  transform: translateY(70%);
   display: grid;grid-template-columns: 35% 65%;
   right: 0%;
   width: 95%;
@@ -170,14 +170,14 @@ a {
   
 }
 .color_block_r.show1 {
-  transform: translateX(0);
+  transform: translateY(0);
   opacity: 1;
   
 }
 
 
 .color_block_l {
-  transform: translateX(50%);
+  transform: translateY(70%);
   display: grid;
   grid-template-columns: 65% 35%;
   width: 95%;
@@ -187,7 +187,7 @@ a {
 }
 
 .color_block_l.show1 {
-  transform: translateX(0);
+  transform: translateY(0);
   opacity: 1;
   
 }
