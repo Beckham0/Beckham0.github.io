@@ -24,13 +24,13 @@ function createNavbar() {
               Our Services
             </a>
             <ul class="dropdown-menu" style="background: #f8f9fa; opacity:0.9;">
-              <li><a id="lang_item1" class="dropdown-item c1" href="รับทำบัญชี ปิดงบ ยืนภาษี eng.html">Accounting, closing accounts, filing taxes</a></li>
+              <li><a id="lang_item1" class="dropdown-item c1" href="รับทำบัญชี ปิดงบ ยืนภาษี eng.html">Accounting, Financial Statement Preparation, Tax Filing</a></li>
               <li><a id="lang_item2" class="dropdown-item c2" href="บริการสอบบัญชี eng.html">Auditing services</a></li>
-              <li><a id="lang_item3" class="dropdown-item c3" href="รับวางระบบภาษี eng.html">Tax system installation services</a></li>
-              <li><a id="lang_item4" class="dropdown-item c4" href="บริการงานทะเบียน eng.html">Registration services</a></li>
-              <li><a id="lang_item5" class="dropdown-item c5" href="บริการขอใบอนุญาติสถานที่เก็บอาหาร eng.html">Food storage license application services</a></li>
+              <li><a id="lang_item3" class="dropdown-item c3" href="รับวางระบบภาษี eng.html">Tax system planning</a></li>
+              <li><a id="lang_item4" class="dropdown-item c4" href="บริการงานทะเบียน eng.html">Business Registration Services</a></li>
+              <li><a id="lang_item5" class="dropdown-item c5" href="บริการขอใบอนุญาติสถานที่เก็บอาหาร eng.html">Food storage license services</a></li>
               <li><a id="lang_item6" class="dropdown-item c6" href="บริการงานจดทะเบียนบริษัท eng.html">Company registration services</a></li>
-              <li><a id="lang_item7" class="dropdown-item c7" href="บริการขอใบอนุญาตินำเข้า-ส่งออก eng.html">Import-Export license application services</a></li>
+              <li><a id="lang_item7" class="dropdown-item c7" href="บริการขอใบอนุญาตินำเข้า-ส่งออก eng.html">Import-Export license services</a></li>
             </ul>
           </li>
           <li class="nav-item">
@@ -103,6 +103,10 @@ function createfooter() {
           font-weight: bold;
         }
 
+        a {
+    text-decoration: none;
+}
+
         p {
           font-size: 19px;
           color: #ffffff;
@@ -173,7 +177,7 @@ p {
       <div class="footer-column">
           <img src="Source/IMG_04511.ico" alt="โลโก้บริษัท" class="logo">
           <h4>NRP My Account Co., Ltd.</h4>
-          <p>115/8 หมู่บ้านพฤกษา รังสิต-วงแหวน</p>
+          <p>115/8 Pruksa Rangsit-Wongwaen Village, Moo 2, Lam Phak Kut Subdistrict, Thanyaburi District, Pathum Thani Province</p>
           <p>Hotline: 062-896-4535</p>
           <p>Email: nrp.acc48@gmail.com</p>
       </div>
@@ -190,13 +194,13 @@ p {
       <!-- คอลัมน์สาม : บริการของเรา -->
       <div class="footer-column">
           <h3>Our Services</h3>
-          <a href="./รับทำบัญชี ปิดงบ ยืนภาษี eng.html"><p>● Accounting, closing accounts, filing taxes</p></a>
+          <a href="./รับทำบัญชี ปิดงบ ยืนภาษี eng.html"><p>● Accounting, Financial Statement Preparation, Tax Filing</p></a>
           <a href="./บริการสอบบัญชี eng.html"><p>● Auditing services</p></a>
-          <a href="./รับวางระบบภาษี eng.html"><p>● Tax system installation services</p></a>
+          <a href="./รับวางระบบภาษี eng.html"><p>● Tax system planning</p></a>
           <a href="./บริการงานทะเบียน eng.html"><p>● Registration services</p></a>
-          <a href="./บริการขอใบอนุญาติสถานที่เก็บอาหาร eng.html"><p>● Food storage license application services</p></a>
+          <a href="./บริการขอใบอนุญาติสถานที่เก็บอาหาร eng.html"><p>● Food storage license services</p></a>
           <a href="./บริการงานทะเบียนบริษัท eng.html"><p>● Company registration services</p></a>
-          <a href="./บริการขอใบอนุญาตินำเข้า-ส่งออก eng.html"><p>● Import-export license application services</p></a>
+          <a href="./บริการขอใบอนุญาตินำเข้า-ส่งออก eng.html"><p>● Import-export license services</p></a>
       </div>
   
       <!-- คอลัมน์สี่ : ข้อมูลการติดต่อ -->
