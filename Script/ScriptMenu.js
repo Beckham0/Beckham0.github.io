@@ -103,6 +103,10 @@ function createfooter() {
           font-weight: bold;
         }
 
+                a {
+    text-decoration: none;
+}
+
         p {
           font-size: 19px;
           color: #ffffff;
