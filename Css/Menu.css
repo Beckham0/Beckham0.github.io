@@ -105,6 +105,16 @@ margin: 10px auto;
 }
 
 
+
+
+@media (max-width: 994px) {
+.nav-item {
+  font-size: clamp(20px,2.5vw,29px);
+  text-align: end;
+  width: 228%;
+}
+}
+
 @media (max-width: 994px) {
   .container-fluid {
     display: flex !important;
