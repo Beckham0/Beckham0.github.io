@@ -26,7 +26,7 @@ function createNavbar() {
             <ul class="dropdown-menu" style="background: #f8f9fa; opacity:0.9;">
               <li><a id="lang_item1" class="dropdown-item c1" href="รับทำบัญชี ปิดงบ ยืนภาษี eng.html">Accounting, Financial Statement Preparation, Tax Filing</a></li>
               <li><a id="lang_item2" class="dropdown-item c2" href="บริการสอบบัญชี eng.html">Auditing services</a></li>
-              <li><a id="lang_item3" class="dropdown-item c3" href="รับวางระบบภาษี eng.html">Tax system planning</a></li>
+              <li><a id="lang_item3" class="dropdown-item c3" href="รับวางระบบบัญชีเเละตรวจสอบภายใน eng.html">Accounting system setup and internal audit services</a></li>
               <li><a id="lang_item4" class="dropdown-item c4" href="บริการงานทะเบียน eng.html">Business Registration Services</a></li>
               <li><a id="lang_item5" class="dropdown-item c5" href="บริการขอใบอนุญาติสถานที่เก็บอาหาร eng.html">Food storage license services</a></li>
               <li><a id="lang_item6" class="dropdown-item c6" href="บริการงานจดทะเบียนบริษัท eng.html">Company registration services</a></li>
@@ -178,7 +178,7 @@ p {
           <img src="Source/IMG_04511.ico" alt="โลโก้บริษัท" class="logo">
           <h4>NRP My Account Co., Ltd.</h4>
           <p>115/8 Pruksa Rangsit-Wongwaen Village, Moo 2, Lam Phak Kut Subdistrict, Thanyaburi District, Pathum Thani Province</p>
-          <p>Hotline: 062-896-4535</p>
+          <p>Hotline: 061-9241629</p>
           <p>Email: nrp.acc48@gmail.com</p>
       </div>
   
@@ -196,7 +196,7 @@ p {
           <h3>Our Services</h3>
           <a href="./รับทำบัญชี ปิดงบ ยืนภาษี eng.html"><p>● Accounting, Financial Statement Preparation, Tax Filing</p></a>
           <a href="./บริการสอบบัญชี eng.html"><p>● Auditing services</p></a>
-          <a href="./รับวางระบบภาษี eng.html"><p>● Tax system planning</p></a>
+          <a href="./รับวางระบบบัญชีเเละตรวจสอบภายใน eng.html"><p>● Accounting system setup and internal audit services</p></a>
           <a href="./บริการงานทะเบียน eng.html"><p>● Registration services</p></a>
           <a href="./บริการขอใบอนุญาติสถานที่เก็บอาหาร eng.html"><p>● Food storage license services</p></a>
           <a href="./บริการงานทะเบียนบริษัท eng.html"><p>● Company registration services</p></a>
@@ -206,7 +206,7 @@ p {
       <!-- คอลัมน์สี่ : ข้อมูลการติดต่อ -->
       <div class="footer-column contact">
           <h3>Contact Us</h3>
-          <p style="margin: 0;">Hotline: 062-896-4535</p>
+          <p style="margin: 0;">Hotline: 061-9241629</p>
           <p>Line ID: nrp_myacc</p>
           <img class="qr-code" src="Source/Qr.jpg" alt="QR Code">
           <a href="https://www.facebook.com/people/%E0%B8%9A%E0%B8%A3%E0%B8%B4%E0%B8%A9%E0%B8%B1%E0%B8%97-%E0%B9%80%E0%B8%AD%E0%B9%87%E0%B8%99%E0%B8%AD%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B8%9E%E0%B8%B5-%E0%B8%A1%E0%B8%B2%E0%B8%A2%E0%B9%81%E0%B8%AD%E0%B8%84%E0%B9%80%E0%B8%84%E0%B8%B2%E0%B8%97%E0%B9%8C-%E0%B8%88%E0%B8%B3%E0%B8%81%E0%B8%B1%E0%B8%94/100070207682246/?rdid=DkqLQSuGREsL0orp&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F19tFBpR9mQ%2F"><img src="Source/facebook1.png" alt="Facebook" style="border-radius: 20px;padding: 10px;"></a>

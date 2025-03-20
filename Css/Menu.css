@@ -4,6 +4,14 @@
   font-weight: 300;
   font-style: normal; 
 }
+html, body {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden; /* กันเว็บล้นขอบ */
+}
 .nav-item{
   font-size: clamp(20px,2.5vw,29px);
   text-align: end;

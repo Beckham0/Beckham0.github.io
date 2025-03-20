@@ -26,7 +26,7 @@ function createNavbar() {
             <ul class="dropdown-menu" style="background: #f8f9fa; opacity:0.9;">
               <li><a id="lang_item1" class="dropdown-item c1" href="รับทำบัญชี ปิดงบ ยืนภาษี.html">รับทำบัญชี ปิดงบ ยืนภาษี</a></li>
               <li><a id="lang_item2" class="dropdown-item c2" href="บริการสอบบัญชี.html">บริการสอบบัญชี</a></li>
-              <li><a id="lang_item3" class="dropdown-item c3" href="รับวางระบบภาษี.html">รับวางระบบภาษี</a></li>
+              <li><a id="lang_item3" class="dropdown-item c3" href="รับวางระบบบัญชีเเละตรวจสอบภายใน.html">รับวางระบบบัญชีเเละตรวจสอบภายใน</a></li>
               <li><a id="lang_item4" class="dropdown-item c4" href="บริการงานทะเบียน.html">บริการงานทะเบียน</a></li>
               <li><a id="lang_item5" class="dropdown-item c5" href="บริการขอใบอนุญาติสถานที่เก็บอาหาร.html">บริการขอใบอนุญาติสถานที่เก็บอาหาร</a></li>
               <li><a id="lang_item6" class="dropdown-item c6" href="บริการงานจดทะเบียนบริษัท.html">บริการงานจดทะเบียนบริษัท</a></li>
@@ -177,8 +177,12 @@ p {
       <div class="footer-column">
           <img src="Source/IMG_04511.ico" alt="โลโก้บริษัท" class="logo">
           <h4>บริษัท เอ็นอาร์พี มายแอคเคานท์ จำกัด</h4>
-          <p>115/8 หมู่บ้านพฤกษา รังสิต-วงแหวน</p>
-          <p>โทร: 062-896-4535</p>
+          <p style="font-size: 12px;">115/8 หมู่บ้านพฤกษา รังสิต-วงแหวน หมู่2 ต.ลำผักกูด อ.ธัญบุรี ปทุมธานี 12110</p>
+          <h4>บริษัท เอ็นอาร์พี คอร์เพอเรท จำกัด</h4>
+          <p style="font-size: 12px;">379/8 หมู่ที่ 3 ต.หนองขาม อ.ศรีราชา จ.ชลบุรี</p>
+          <h4>บริษัท เอ็นอาร์พี การบัญชีเเละภาษี จำกัด</h4>
+          <p style="font-size: 12px;">298/7 หมู่ที่ 12 ต.ไร่น้อย อ.เมืองอุบลราชธานี จ.อุบลราชธานี</p>
+          <p>โทร: 061-9241629</p>
           <p>อีเมล: nrp.acc48@gmail.com</p>
       </div>
   
@@ -196,7 +200,7 @@ p {
           <h3>บริการเรา</h3>
           <a href="./รับทำบัญชี ปิดงบ ยืนภาษี.html"><p>● รับทำบัญชี ปิดงบ ยื่นภาษี</p></a>
           <a href="./บริการสอบบัญชี.html"><p>● บริการสอบบัญชี</p></a>
-          <a href="./รับวางระบบภาษี.html"><p>● รับวางระบบภาษี</p></a>
+          <a href="./รับวางระบบบัญชีเเละตรวจสอบภายใน.html"><p>● รับวางระบบบัญชีเเละตรวจสอบภายใน</p></a>
           <a href="./บริการงานทะเบียน.html"><p>● บริการงานทะเบียน</p></a>
           <a href="./บริการขอใบอนุญาติสถานที่เก็บอาหาร.html"><p>● บริการขอใบอนุญาติสถานที่เก็บอาหาร</p></a>
           <a href="./บริการงานทะเบียนบริษัท.html"><p>● บริการงานทะเบียนบริษัท</p></a>
@@ -206,7 +210,7 @@ p {
       <!-- คอลัมน์สี่ : ข้อมูลการติดต่อ -->
       <div class="footer-column contact">
           <h3>ติดต่อเรา</h3>
-          <p style="margin: 0;">โทร: 062-896-4535</p>
+          <p style="margin: 0;">โทร: 061-9241629</p>
           <p>Line ID: nrp_myacc</p>
           <img class="qr-code" src="Source/Qr.jpg" alt="QR Code">
           <a href="https://www.facebook.com/people/%E0%B8%9A%E0%B8%A3%E0%B8%B4%E0%B8%A9%E0%B8%B1%E0%B8%97-%E0%B9%80%E0%B8%AD%E0%B9%87%E0%B8%99%E0%B8%AD%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B8%9E%E0%B8%B5-%E0%B8%A1%E0%B8%B2%E0%B8%A2%E0%B9%81%E0%B8%AD%E0%B8%84%E0%B9%80%E0%B8%84%E0%B8%B2%E0%B8%97%E0%B9%8C-%E0%B8%88%E0%B8%B3%E0%B8%81%E0%B8%B1%E0%B8%94/100070207682246/?rdid=DkqLQSuGREsL0orp&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F19tFBpR9mQ%2F"><img src="Source/facebook1.png" alt="Facebook" style="border-radius: 20px;padding: 10px;"></a>
